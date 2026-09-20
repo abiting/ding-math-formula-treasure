@@ -48,7 +48,7 @@ export default function SiteShell({ children }: { children: ReactNode }) {
             <span className="footer-label">製作與監製</span>
             <a href="https://abiting.cc" target="_blank" rel="noreferrer" className="developer-credit">
               <img src={footerImage} alt="阿比丁網站開發維護識別圖" />
-              <span>網站由阿比丁開發與維護<br />並由補教名師丁成監製 <ArrowUpRight size={13} /></span>
+              <span>網站由阿比丁開發與維護<br />並由高中數學補教名師監製。 <ArrowUpRight size={13} /></span>
             </a>
           </div>
         </div>
