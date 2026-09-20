@@ -21,6 +21,19 @@ export const categories = [
   { name: "平面幾何", value: "平面幾何", tone: "violet", note: "長度、面積與角度" },
   { name: "三角函數", value: "三角函數", tone: "blue", note: "角度與邊的關係" },
   { name: "排列組合與機率", value: "排列組合與機率", tone: "green", note: "數法與不確定性" },
+  { name: "數論", value: "數論", tone: "indigo", note: "整數、質數與同餘" },
+  { name: "不等式", value: "不等式", tone: "coral", note: "估計與極值工具" },
+  { name: "奧林匹亞幾何", value: "奧林匹亞幾何", tone: "teal", note: "競賽幾何定理" },
+  { name: "複數與多項式", value: "複數與多項式", tone: "gold", note: "根、係數與複平面" },
+  { name: "進階組合", value: "進階組合", tone: "violet", note: "對稱、圖論與計數" },
+  { name: "微積分", value: "微積分", tone: "blue", note: "極限、導數與積分" },
+  { name: "統計與資料分析", value: "統計與資料分析", tone: "green", note: "資料、分布與相關" },
+  { name: "矩陣與線性代數", value: "矩陣與線性代數", tone: "indigo", note: "方程組與線性變換" },
+  { name: "向量與空間", value: "向量與空間", tone: "coral", note: "三維幾何與距離" },
+  { name: "集合與邏輯", value: "集合與邏輯", tone: "teal", note: "集合、命題與推理" },
+  { name: "函數與模型", value: "函數與模型", tone: "gold", note: "函數觀念與應用" },
+  { name: "線性規劃", value: "線性規劃", tone: "violet", note: "可行域與最佳化" },
+  { name: "數值與誤差", value: "數值與誤差", tone: "blue", note: "近似、精度與估計" },
 ];
 
 export const formulas: Formula[] = [
@@ -585,8 +598,11 @@ export const formulas: Formula[] = [
 ];
 
 import { additionalFormulas } from "./additionalFormulas";
+import { calculusFormulas } from "./calculusFormulas";
+import { curriculumFormulas } from "./curriculumFormulas";
+import { olympiadFormulas } from "./olympiadFormulas";
 
-export const allFormulas: Formula[] = [...formulas, ...additionalFormulas];
+export const allFormulas: Formula[] = [...formulas, ...additionalFormulas, ...olympiadFormulas, ...calculusFormulas, ...curriculumFormulas];
 
 export const featuredSlugs = ["quadratic-formula", "pythagorean-theorem", "sine-law", "combination"];
 

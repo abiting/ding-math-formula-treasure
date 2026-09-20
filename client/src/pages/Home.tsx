@@ -36,7 +36,7 @@ export default function Home() {
       <section className="hero-section">
         <div className="container hero-grid">
           <div className="hero-copy">
-            <div className="eyebrow"><span className="eyebrow-dot" /> 給國高中生的數學自學工具 <span className="eyebrow-line" /></div>
+            <div className="eyebrow"><span className="eyebrow-dot" /> 給國高中生與數學競賽生的自學工具 <span className="eyebrow-line" /></div>
             <h1>丁氏數學<br /><em>公式寶典</em></h1>
             <p className="hero-lead">不只背公式，從每一步推導開始，把數學真正變成自己的語言。</p>
             <p className="hero-description">丁氏數學公式寶典提供最齊全的國、高中數學公式，且每種公式皆附帶推導過程，是莘莘學子準備小考、段考、學測與指考最好的助手。</p>
@@ -118,7 +118,7 @@ export default function Home() {
         <div className="container">
           <div className="library-header">
             <div>
-              <div className="eyebrow"><span className="eyebrow-dot" /> 完整公式索引</div>
+              <div className="eyebrow"><span className="eyebrow-dot" /> 課綱完整・資優競賽加強</div>
               <h2>所有公式，<em>條列清楚。</em></h2>
             </div>
             <div className="library-count"><span>{visibleFormulas.length.toString().padStart(2, "0")}</span> / {formulas.length} 筆結果</div>

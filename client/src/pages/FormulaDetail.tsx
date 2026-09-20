@@ -42,6 +42,12 @@ export default function FormulaDetail() {
 
   const currentIndex = formulas.findIndex((item) => item.slug === formula.slug);
   const nextFormula = formulas[(currentIndex + 1) % formulas.length];
+  const proofTitle = formula.name.includes("定義") ? "定義說明" : formula.name.includes("定理") ? "定理證明" : "推導步驟";
+  const proofSubtitle = formula.name.includes("定義")
+    ? "從符號的約定與幾何、數值意義開始理解。"
+    : formula.name.includes("定理")
+      ? "把關鍵關係寫清楚，讓每個結論都有來處。"
+      : "不是套版說明；每一步都對應這條公式的來源。";
 
   return (
     <article className="detail-page">
@@ -78,7 +84,7 @@ export default function FormulaDetail() {
               <div><span className="card-eyebrow">符號小辭典 / SYMBOLS</span><p>{formula.variables}</p></div>
             </div>
 
-            <div className="proof-heading"><div className="content-kicker"><span>02</span><span>PROOF, STEP BY STEP</span></div><h2>推導證明</h2><p>不用跳步，每一行都說清楚它為什麼成立。</p></div>
+            <div className="proof-heading"><div className="content-kicker"><span>02</span><span>PROOF, STEP BY STEP</span></div><h2>{proofTitle}</h2><p>{proofSubtitle}</p></div>
             <div className="proof-list">
               {formula.proofSteps.map((step, index) => (
                 <div className="proof-step" key={step}>
@@ -101,7 +107,7 @@ export default function FormulaDetail() {
               <img src={formulaImage} alt={`${formula.name}推導示意與數學筆記圖片`} />
               <figcaption><span>VISUAL NOTE</span><strong>把抽象符號，<br />放回圖形與情境。</strong></figcaption>
             </figure>
-            <div className="quote-card"><Quote size={22} /><p>真正會用公式的人，不是背得最多的人，而是知道它從哪裡來的人。</p><span>— 丁成老師</span></div>
+            <div className="quote-card"><Quote size={22} /><p>真正會用公式的人，不是背得最多的人，而是知道它從哪裡來的人。</p><span>— 丁老師</span></div>
             <div className="next-card"><span className="card-eyebrow">接著讀 / UP NEXT</span><Link href={`/formula/${nextFormula.slug}`}><strong>{nextFormula.name}</strong><ArrowUpRight size={17} /></Link><span>{nextFormula.category}</span></div>
           </aside>
         </div>

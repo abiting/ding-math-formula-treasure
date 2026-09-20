@@ -1,4 +1,5 @@
 import type { Formula } from "./formulas";
+import { getGeneratedProof } from "./proofs";
 
 type RawFormula = [string, string, string, string, string, string, string];
 
@@ -194,11 +195,7 @@ function makeFormula(item: RawFormula, index: number): Formula {
     summary,
     formula,
     variables: `公式中的字母依照題目定義；先確認每個符號的意義與使用條件。`,
-    proofSteps: [
-      `先回到${category}的基本定義，確認這個公式要描述的關係。`,
-      `把已知量代入定義或前一個已知公式，保留每個變形步驟。`,
-      `整理同類項與符號後，就得到 ${name} 的標準形式。`,
-    ],
+    proofSteps: getGeneratedProof({ slug, name, category, formula, summary }),
     example: `${summary} 讀題時先標出已知量，再依公式逐項代入。`,
     memory: `先記住關係，再記住形式：${formula}`,
     tags: [category, level, "推導"],

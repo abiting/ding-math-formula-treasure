@@ -1,0 +1,3116 @@
+[
+  {
+    "slug": "square-of-sum",
+    "name": "和的平方公式",
+    "english": "Square of a Sum",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "(a + b)² = a² + 2ab + b²",
+    "summary": "將兩個量的和平方，拆成各自平方與兩倍乘積。"
+  },
+  {
+    "slug": "square-of-difference",
+    "name": "差的平方公式",
+    "english": "Square of a Difference",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "(a − b)² = a² − 2ab + b²",
+    "summary": "差的平方不是兩個平方直接相減，中間會出現負的兩倍乘積。"
+  },
+  {
+    "slug": "difference-of-squares",
+    "name": "平方差公式",
+    "english": "Difference of Two Squares",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "a² − b² = (a + b)(a − b)",
+    "summary": "兩平方相減可以快速分解成和與差兩個因式。"
+  },
+  {
+    "slug": "quadratic-formula",
+    "name": "一元二次方程式公式",
+    "english": "Quadratic Formula",
+    "category": "基礎代數",
+    "level": "國中・高中",
+    "formula": "x = (−b ± √(b² − 4ac)) / 2a",
+    "summary": "解 ax² + bx + c = 0 的通用工具，判別式也藏在根號裡。"
+  },
+  {
+    "slug": "absolute-value-distance",
+    "name": "數線兩點距離",
+    "english": "Distance on the Number Line",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "距離 = |a − b|",
+    "summary": "數線上兩點的距離，就是座標相減後取絕對值。"
+  },
+  {
+    "slug": "arithmetic-nth-term",
+    "name": "等差數列第 n 項",
+    "english": "Arithmetic Sequence — nth Term",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "aₙ = a₁ + (n − 1)d",
+    "summary": "每次固定增加同一個公差的數列，用首項與公差定位第 n 項。"
+  },
+  {
+    "slug": "arithmetic-sum",
+    "name": "等差級數和",
+    "english": "Sum of an Arithmetic Series",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "Sₙ = n(a₁ + aₙ) / 2",
+    "summary": "等差數列前 n 項的和，等於項數乘上首末項平均。"
+  },
+  {
+    "slug": "geometric-nth-term",
+    "name": "等比數列第 n 項",
+    "english": "Geometric Sequence — nth Term",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "aₙ = a₁ · rⁿ⁻¹",
+    "summary": "每次固定乘上同一個公比的數列，用次方描述成長。"
+  },
+  {
+    "slug": "geometric-sum",
+    "name": "等比級數和",
+    "english": "Sum of a Geometric Series",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "Sₙ = a₁(1 − rⁿ) / (1 − r), r ≠ 1",
+    "summary": "把等比級數乘上公比再相減，讓中間項互相消去。"
+  },
+  {
+    "slug": "exponent-laws",
+    "name": "指數乘法法則",
+    "english": "Laws of Exponents",
+    "category": "數列與指數",
+    "level": "國中・高中",
+    "formula": "aᵐ · aⁿ = aᵐ⁺ⁿ",
+    "summary": "同底數相乘時，指數相加；這是重複乘法的縮寫。"
+  },
+  {
+    "slug": "slope",
+    "name": "斜率公式",
+    "english": "Slope Formula",
+    "category": "解析幾何",
+    "level": "國中・高中",
+    "formula": "m = (y₂ − y₁) / (x₂ − x₁)",
+    "summary": "用垂直變化量除以水平變化量，描述直線的傾斜程度。"
+  },
+  {
+    "slug": "distance-formula",
+    "name": "兩點距離公式",
+    "english": "Distance Formula",
+    "category": "解析幾何",
+    "level": "國中・高中",
+    "formula": "d = √[(x₂−x₁)² + (y₂−y₁)²]",
+    "summary": "把座標差當成直角三角形兩股，再用畢氏定理求距離。"
+  },
+  {
+    "slug": "midpoint",
+    "name": "中點公式",
+    "english": "Midpoint Formula",
+    "category": "解析幾何",
+    "level": "國中・高中",
+    "formula": "M = ((x₁+x₂)/2, (y₁+y₂)/2)",
+    "summary": "線段中點的每個座標，都是兩端點對應座標的平均。"
+  },
+  {
+    "slug": "point-slope",
+    "name": "點斜式",
+    "english": "Point-Slope Form",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "y − y₁ = m(x − x₁)",
+    "summary": "已知直線上一點與斜率，就能寫出整條直線的方程式。"
+  },
+  {
+    "slug": "circle-equation",
+    "name": "圓的標準方程式",
+    "english": "Standard Equation of a Circle",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "(x−h)² + (y−k)² = r²",
+    "summary": "圓心到圓上任一點的距離固定為半徑，直接套用距離公式。"
+  },
+  {
+    "slug": "triangle-area",
+    "name": "三角形面積",
+    "english": "Area of a Triangle",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "A = 1/2 × 底 × 高",
+    "summary": "三角形是同底同高平行四邊形的一半。"
+  },
+  {
+    "slug": "heron-formula",
+    "name": "海龍公式",
+    "english": "Heron's Formula",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "A = √[s(s−a)(s−b)(s−c)],  s=(a+b+c)/2",
+    "summary": "只知道三邊長時，也能不先求高就得到三角形面積。"
+  },
+  {
+    "slug": "pythagorean-theorem",
+    "name": "畢氏定理",
+    "english": "Pythagorean Theorem",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "c² = a² + b²",
+    "summary": "直角三角形中，斜邊平方等於兩股平方和。"
+  },
+  {
+    "slug": "sector-area",
+    "name": "扇形面積",
+    "english": "Area of a Sector",
+    "category": "平面幾何",
+    "level": "國中・高中",
+    "formula": "A = (θ/360°)πr²",
+    "summary": "扇形是整個圓按圓心角比例切出的部分。"
+  },
+  {
+    "slug": "polygon-angle-sum",
+    "name": "多邊形內角和",
+    "english": "Sum of Interior Angles",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "內角和 = (n − 2)×180°",
+    "summary": "從一個頂點連對角線，把 n 邊形切成 n−2 個三角形。"
+  },
+  {
+    "slug": "trig-ratios",
+    "name": "三角函數基本比",
+    "english": "Basic Trigonometric Ratios",
+    "category": "三角函數",
+    "level": "國中・高中",
+    "formula": "sin θ=對邊/斜邊；cos θ=鄰邊/斜邊；tan θ=對邊/鄰邊",
+    "summary": "在直角三角形裡，用角度對應的邊長比例定義 sin、cos、tan。"
+  },
+  {
+    "slug": "trig-identity",
+    "name": "三角函數基本恆等式",
+    "english": "Pythagorean Trigonometric Identity",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sin²θ + cos²θ = 1",
+    "summary": "把直角三角形的畢氏定理除以斜邊平方，就得到最重要的恆等式。"
+  },
+  {
+    "slug": "sine-law",
+    "name": "正弦定理",
+    "english": "Law of Sines",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "a/sin A = b/sin B = c/sin C",
+    "summary": "任意三角形中，邊長與其對角的正弦成正比。"
+  },
+  {
+    "slug": "cosine-law",
+    "name": "餘弦定理",
+    "english": "Law of Cosines",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "c² = a² + b² − 2ab cos C",
+    "summary": "畢氏定理的推廣版，適用於任何三角形。"
+  },
+  {
+    "slug": "angle-addition",
+    "name": "正弦加角公式",
+    "english": "Sine Addition Formula",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sin(A+B)=sin A cos B + cos A sin B",
+    "summary": "把兩個角的和拆成各角的 sin、cos 組合。"
+  },
+  {
+    "slug": "double-angle",
+    "name": "正弦二倍角公式",
+    "english": "Sine Double-Angle Formula",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sin 2A = 2 sin A cos A",
+    "summary": "把加角公式中的兩個角設成相同，就能得到二倍角。"
+  },
+  {
+    "slug": "factorial",
+    "name": "階乘",
+    "english": "Factorial",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "n! = n(n−1)(n−2)…2·1",
+    "summary": "從 n 一路乘到 1，用來計算排列與組合的基礎數量。"
+  },
+  {
+    "slug": "permutation",
+    "name": "排列公式",
+    "english": "Permutation",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(n,r) = n!/(n−r)!",
+    "summary": "從 n 個不同物件取 r 個並排，有順序差異。"
+  },
+  {
+    "slug": "combination",
+    "name": "組合公式",
+    "english": "Combination",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "C(n,r) = n!/[r!(n−r)!]",
+    "summary": "從 n 個不同物件取 r 個但不在意順序，將排列除以 r!。"
+  },
+  {
+    "slug": "binomial-theorem",
+    "name": "二項式定理",
+    "english": "Binomial Theorem",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "(a+b)ⁿ = Σ C(n,k)aⁿ⁻ᵏbᵏ",
+    "summary": "把 (a+b)ⁿ 展開成組合數加權的各次方項。"
+  },
+  {
+    "slug": "classical-probability",
+    "name": "古典機率",
+    "english": "Classical Probability",
+    "category": "排列組合與機率",
+    "level": "國中・高中",
+    "formula": "P(A) = 有利結果數 / 全部可能結果數",
+    "summary": "在每個基本結果等可能時，用有利結果數除以全部結果數。"
+  },
+  {
+    "slug": "cube-of-sum",
+    "name": "和的立方公式",
+    "english": "Cube of a Sum",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "(a+b)³=a³+3a²b+3ab²+b³",
+    "summary": "把和的立方拆成四項，常用於展開與因式分解。"
+  },
+  {
+    "slug": "cube-of-difference",
+    "name": "差的立方公式",
+    "english": "Cube of a Difference",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "(a−b)³=a³−3a²b+3ab²−b³",
+    "summary": "差的立方展開，符號依次呈現正負交替。"
+  },
+  {
+    "slug": "sum-of-cubes",
+    "name": "立方和公式",
+    "english": "Sum of Two Cubes",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "a³+b³=(a+b)(a²−ab+b²)",
+    "summary": "兩個立方相加可分解成一次式乘二次式。"
+  },
+  {
+    "slug": "difference-of-cubes",
+    "name": "立方差公式",
+    "english": "Difference of Two Cubes",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "a³−b³=(a−b)(a²+ab+b²)",
+    "summary": "兩個立方相減的標準因式分解。"
+  },
+  {
+    "slug": "perfect-square-trinomial",
+    "name": "完全平方三項式",
+    "english": "Perfect Square Trinomial",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "a²±2ab+b²=(a±b)²",
+    "summary": "辨認首尾平方與中間兩倍乘積，即可快速配方。"
+  },
+  {
+    "slug": "common-factor",
+    "name": "提公因式",
+    "english": "Factoring Out a Common Factor",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "ab+ac=a(b+c)",
+    "summary": "分配律反向使用，是最基本的因式分解方法。"
+  },
+  {
+    "slug": "fraction-addition",
+    "name": "分式加法",
+    "english": "Adding Fractions",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "a/b+c/d=(ad+bc)/bd",
+    "summary": "通分後相加，分母乘積提供共同分母。"
+  },
+  {
+    "slug": "fraction-multiplication",
+    "name": "分式乘法",
+    "english": "Multiplying Fractions",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "(a/b)(c/d)=ac/bd",
+    "summary": "分子乘分子、分母乘分母，再約分。"
+  },
+  {
+    "slug": "ratio-proportion",
+    "name": "比例基本式",
+    "english": "Proportion",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "a:b=c:d ⇔ ad=bc",
+    "summary": "比例兩端外項積等於內項積，可用來解未知數。"
+  },
+  {
+    "slug": "percentage-change",
+    "name": "百分比變化率",
+    "english": "Percentage Change",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "變化率=(新值−原值)/原值×100%",
+    "summary": "比較前後差異時，分母要用原來的量。"
+  },
+  {
+    "slug": "direct-proportion",
+    "name": "正比關係",
+    "english": "Direct Proportion",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "y=kx",
+    "summary": "兩量成正比時，比例常數 y/x 固定。"
+  },
+  {
+    "slug": "inverse-proportion",
+    "name": "反比關係",
+    "english": "Inverse Proportion",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "y=k/x ⇔ xy=k",
+    "summary": "兩量成反比時，乘積保持固定。"
+  },
+  {
+    "slug": "linear-equation",
+    "name": "一元一次方程式",
+    "english": "Linear Equation",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "ax+b=0 ⇔ x=−b/a",
+    "summary": "移項並除以未知數係數就能解出 x。"
+  },
+  {
+    "slug": "linear-system-two",
+    "name": "二元一次方程組行列式解",
+    "english": "Two-Variable Linear System",
+    "category": "基礎代數",
+    "level": "高中",
+    "formula": "x=(ed−bf)/(ad−bc), y=(af−ec)/(ad−bc)",
+    "summary": "用消去法或克拉瑪公式，同時解出兩個未知數。"
+  },
+  {
+    "slug": "absolute-equation",
+    "name": "絕對值方程式",
+    "english": "Absolute Value Equation",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "|x|=a ⇔ x=±a (a≥0)",
+    "summary": "距離等於 a 時，數線上通常有左右兩個位置。"
+  },
+  {
+    "slug": "absolute-inequality",
+    "name": "絕對值不等式",
+    "english": "Absolute Value Inequality",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "|x|<a ⇔ −a<x<a",
+    "summary": "離原點小於 a 的點，落在左右端點之間。"
+  },
+  {
+    "slug": "zero-exponent",
+    "name": "零次方",
+    "english": "Zero Exponent",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "a⁰=1 (a≠0)",
+    "summary": "由同底相除 aⁿ/aⁿ=a⁰，同時分子分母相等為 1。"
+  },
+  {
+    "slug": "negative-exponent",
+    "name": "負次方",
+    "english": "Negative Exponent",
+    "category": "基礎代數",
+    "level": "高中",
+    "formula": "a⁻ⁿ=1/aⁿ",
+    "summary": "同底相除的指數法則延伸到負指數。"
+  },
+  {
+    "slug": "radical-product",
+    "name": "根式乘法",
+    "english": "Product of Radicals",
+    "category": "基礎代數",
+    "level": "國中",
+    "formula": "√a·√b=√(ab)",
+    "summary": "將兩個非負數的平方根合併成一個根號。"
+  },
+  {
+    "slug": "radical-rationalize",
+    "name": "分母有理化",
+    "english": "Rationalizing a Denominator",
+    "category": "基礎代數",
+    "level": "高中",
+    "formula": "1/√a=√a/a",
+    "summary": "分子分母同乘 √a，使分母變成有理數。"
+  },
+  {
+    "slug": "arithmetic-mean",
+    "name": "等差中項",
+    "english": "Arithmetic Mean",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "b=(a+c)/2 ⇔ 2b=a+c",
+    "summary": "三項成等差時，中項是首尾兩項的平均。"
+  },
+  {
+    "slug": "geometric-mean",
+    "name": "等比中項",
+    "english": "Geometric Mean",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "b²=ac ⇔ b=√ac",
+    "summary": "三項成等比時，中項平方等於首尾乘積。"
+  },
+  {
+    "slug": "natural-number-sum",
+    "name": "前 n 個自然數和",
+    "english": "Sum of First n Natural Numbers",
+    "category": "數列與指數",
+    "level": "國中",
+    "formula": "1+2+…+n=n(n+1)/2",
+    "summary": "以首尾配對或等差級數公式求和。"
+  },
+  {
+    "slug": "squares-sum",
+    "name": "平方和公式",
+    "english": "Sum of Squares",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "1²+2²+…+n²=n(n+1)(2n+1)/6",
+    "summary": "利用相鄰立方差的望遠鏡消去可推得。"
+  },
+  {
+    "slug": "cubes-sum",
+    "name": "立方和公式",
+    "english": "Sum of Cubes",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "1³+2³+…+n³=[n(n+1)/2]²",
+    "summary": "立方和等於前 n 個自然數和的平方。"
+  },
+  {
+    "slug": "arithmetic-recursion",
+    "name": "等差數列遞迴式",
+    "english": "Arithmetic Recurrence",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "aₙ₊₁=aₙ+d",
+    "summary": "每一項由前一項固定加上公差得到。"
+  },
+  {
+    "slug": "geometric-recursion",
+    "name": "等比數列遞迴式",
+    "english": "Geometric Recurrence",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "aₙ₊₁=raₙ",
+    "summary": "每一項由前一項固定乘上公比得到。"
+  },
+  {
+    "slug": "telescoping-series",
+    "name": "望遠鏡級數",
+    "english": "Telescoping Series",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "Σ(k=1→n)[f(k)−f(k+1)]=f(1)−f(n+1)",
+    "summary": "相鄰項相減後，中間項會成對消去。"
+  },
+  {
+    "slug": "compound-interest",
+    "name": "複利公式",
+    "english": "Compound Interest",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "A=P(1+r/n)ⁿᵗ",
+    "summary": "每期利息加入本金，形成等比成長。"
+  },
+  {
+    "slug": "simple-interest",
+    "name": "單利公式",
+    "english": "Simple Interest",
+    "category": "數列與指數",
+    "level": "國中",
+    "formula": "A=P(1+rt)",
+    "summary": "利息只根據原本金計算，不加入下一期本金。"
+  },
+  {
+    "slug": "exponential-growth",
+    "name": "指數成長模型",
+    "english": "Exponential Growth",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "N(t)=N₀eᵏᵗ",
+    "summary": "連續成長時，瞬時變化率與目前數量成正比。"
+  },
+  {
+    "slug": "exponential-decay",
+    "name": "指數衰減模型",
+    "english": "Exponential Decay",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "N(t)=N₀e⁻ᵏᵗ",
+    "summary": "衰減速度與目前剩餘量成正比。"
+  },
+  {
+    "slug": "log-definition",
+    "name": "對數定義",
+    "english": "Definition of a Logarithm",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "logₐx=y ⇔ aʸ=x",
+    "summary": "對數是指數運算的反運算。"
+  },
+  {
+    "slug": "log-product",
+    "name": "對數乘法法則",
+    "english": "Product Rule of Logarithms",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "logₐ(xy)=logₐx+logₐy",
+    "summary": "把乘積寫成指數，再用指數相加法則。"
+  },
+  {
+    "slug": "log-quotient",
+    "name": "對數除法法則",
+    "english": "Quotient Rule of Logarithms",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "logₐ(x/y)=logₐx−logₐy",
+    "summary": "把商寫成指數相減後取對數。"
+  },
+  {
+    "slug": "log-power",
+    "name": "對數次方規則",
+    "english": "Power Rule of Logarithms",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "logₐ(xᵏ)=k logₐx",
+    "summary": "次方可視為重複乘法，轉成指數倍數。"
+  },
+  {
+    "slug": "change-of-base",
+    "name": "對數換底公式",
+    "english": "Change of Base Formula",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "logₐx=log_bx/log_ba",
+    "summary": "同時對 aʸ=x 取 b 為底的對數即可得到。"
+  },
+  {
+    "slug": "natural-log-exp",
+    "name": "自然對數與指數互逆",
+    "english": "Natural Log and Exponential",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "ln(eˣ)=x, eˡⁿˣ=x",
+    "summary": "ln 與 eˣ 互為反函數。"
+  },
+  {
+    "slug": "log-one",
+    "name": "對數特殊值一",
+    "english": "Logarithm of One",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "logₐ1=0",
+    "summary": "因為任何非 1 底數的 0 次方都是 1。"
+  },
+  {
+    "slug": "log-base",
+    "name": "對數特殊值二",
+    "english": "Logarithm of Its Base",
+    "category": "數列與指數",
+    "level": "高中",
+    "formula": "logₐa=1",
+    "summary": "因為 a 的 1 次方就是 a。"
+  },
+  {
+    "slug": "power-of-power",
+    "name": "次方的次方",
+    "english": "Power of a Power",
+    "category": "數列與指數",
+    "level": "國中",
+    "formula": "(aᵐ)ⁿ=aᵐⁿ",
+    "summary": "重複次方代表指數相乘。"
+  },
+  {
+    "slug": "power-product",
+    "name": "積的次方",
+    "english": "Power of a Product",
+    "category": "數列與指數",
+    "level": "國中",
+    "formula": "(ab)ⁿ=aⁿbⁿ",
+    "summary": "乘積重複 n 次，可分別收集 a 與 b。"
+  },
+  {
+    "slug": "power-quotient",
+    "name": "商的次方",
+    "english": "Power of a Quotient",
+    "category": "數列與指數",
+    "level": "國中",
+    "formula": "(a/b)ⁿ=aⁿ/bⁿ",
+    "summary": "分數重複 n 次，分子分母各自成 n 次方。"
+  },
+  {
+    "slug": "scientific-notation",
+    "name": "科學記號",
+    "english": "Scientific Notation",
+    "category": "數列與指數",
+    "level": "國中",
+    "formula": "N=a×10ⁿ, 1≤|a|<10",
+    "summary": "用 10 的整數次方表示非常大或非常小的數。"
+  },
+  {
+    "slug": "binary-geometric-sum",
+    "name": "二進位位值和",
+    "english": "Binary Place-Value Sum",
+    "category": "數列與指數",
+    "level": "國中",
+    "formula": "(bₙ…b₁b₀)₂=Σ bₖ2ᵏ",
+    "summary": "每一位數字乘上對應的 2 次方再相加。"
+  },
+  {
+    "slug": "standard-line",
+    "name": "直線一般式",
+    "english": "Standard Form of a Line",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "Ax+By+C=0",
+    "summary": "把 x、y 的一次項與常數整理在同一邊。"
+  },
+  {
+    "slug": "slope-intercept",
+    "name": "直線斜截式",
+    "english": "Slope-Intercept Form",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "y=mx+b",
+    "summary": "斜率 m 決定傾斜，截距 b 決定與 y 軸交點。"
+  },
+  {
+    "slug": "two-point-line",
+    "name": "直線兩點式",
+    "english": "Two-Point Form",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "(y−y₁)/(y₂−y₁)=(x−x₁)/(x₂−x₁)",
+    "summary": "同一直線上任一點與兩固定點的斜率相同。"
+  },
+  {
+    "slug": "intercept-form",
+    "name": "直線截距式",
+    "english": "Intercept Form",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "x/a+y/b=1",
+    "summary": "由兩個坐標軸截距建立直線方程式。"
+  },
+  {
+    "slug": "parallel-lines",
+    "name": "平行線斜率條件",
+    "english": "Parallel Lines",
+    "category": "解析幾何",
+    "level": "國中",
+    "formula": "m₁=m₂",
+    "summary": "平行線的垂直變化與水平變化比例相同。"
+  },
+  {
+    "slug": "perpendicular-lines",
+    "name": "垂直線斜率條件",
+    "english": "Perpendicular Lines",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "m₁m₂=−1",
+    "summary": "兩條直線的方向向量內積為零。"
+  },
+  {
+    "slug": "line-angle",
+    "name": "兩直線夾角",
+    "english": "Angle Between Two Lines",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "tanθ=|(m₂−m₁)/(1+m₁m₂)|",
+    "summary": "由正切差角公式比較兩條直線方向角。"
+  },
+  {
+    "slug": "coordinate-triangle-area",
+    "name": "坐標三角形面積",
+    "english": "Coordinate Area of a Triangle",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "A=1/2|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|",
+    "summary": "把鞋帶公式或行列式套在三個頂點上。"
+  },
+  {
+    "slug": "centroid-coordinate",
+    "name": "三角形重心坐標",
+    "english": "Centroid Coordinates",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "G=((x₁+x₂+x₃)/3,(y₁+y₂+y₃)/3)",
+    "summary": "重心把三個頂點坐標各自平均。"
+  },
+  {
+    "slug": "section-formula",
+    "name": "內分點公式",
+    "english": "Section Formula",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "P=((mx₂+nx₁)/(m+n),(my₂+ny₁)/(m+n))",
+    "summary": "用距離比例做加權平均。"
+  },
+  {
+    "slug": "locus-distance-equal",
+    "name": "等距軌跡垂直平分線",
+    "english": "Locus Equidistant from Two Points",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "PA=PB",
+    "summary": "到兩固定點等距的點，正好落在垂直平分線上。"
+  },
+  {
+    "slug": "circle-expanded",
+    "name": "圓的一般方程式",
+    "english": "Expanded Circle Equation",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "x²+y²+Dx+Ey+F=0",
+    "summary": "由標準式展開並配方可找出圓心與半徑。"
+  },
+  {
+    "slug": "circle-radius-general",
+    "name": "一般式圓半徑",
+    "english": "Radius from General Circle Equation",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "r²=(D/2)²+(E/2)²−F",
+    "summary": "對 x、y 各自配方，再讀出半徑平方。"
+  },
+  {
+    "slug": "circle-tangent-radius",
+    "name": "圓切線與半徑垂直",
+    "english": "Radius-Tangent Perpendicularity",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "OT ⟂ tangent",
+    "summary": "切線只與圓交一點，半徑是該點的法向方向。"
+  },
+  {
+    "slug": "parabola-vertical",
+    "name": "拋物線標準式一",
+    "english": "Vertical Parabola",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "(x−h)²=4p(y−k)",
+    "summary": "由到焦點與準線等距的定義整理得到。"
+  },
+  {
+    "slug": "parabola-horizontal",
+    "name": "拋物線標準式二",
+    "english": "Horizontal Parabola",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "(y−k)²=4p(x−h)",
+    "summary": "把拋物線的對稱軸改為水平後同樣由距離定義推得。"
+  },
+  {
+    "slug": "parabola-vertex",
+    "name": "拋物線頂點式",
+    "english": "Vertex Form of a Parabola",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "y=a(x−h)²+k",
+    "summary": "由 y=ax² 平移 h、k 得到頂點 (h,k)。"
+  },
+  {
+    "slug": "parabola-focus",
+    "name": "拋物線焦點",
+    "english": "Focus of a Parabola",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "y=ax² 的焦點為 (0,1/4a)",
+    "summary": "把 4p=1/a 與標準式比較即可。"
+  },
+  {
+    "slug": "ellipse-standard",
+    "name": "橢圓標準式",
+    "english": "Standard Equation of an Ellipse",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "x²/a²+y²/b²=1",
+    "summary": "橢圓上點到兩焦點距離和固定，化簡得標準式。"
+  },
+  {
+    "slug": "ellipse-focus",
+    "name": "橢圓焦距關係",
+    "english": "Ellipse Focal Relation",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "c²=a²−b²",
+    "summary": "取長軸端點並利用焦點定義，可由畢氏定理得到。"
+  },
+  {
+    "slug": "hyperbola-standard",
+    "name": "雙曲線標準式",
+    "english": "Standard Equation of a Hyperbola",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "x²/a²−y²/b²=1",
+    "summary": "兩焦點距離差固定，整理其幾何定義得到。"
+  },
+  {
+    "slug": "vector-distance",
+    "name": "向量長度",
+    "english": "Magnitude of a Vector",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "|v|=√(vₓ²+vᵧ²)",
+    "summary": "向量分量形成直角三角形，套畢氏定理。"
+  },
+  {
+    "slug": "dot-product-coordinate",
+    "name": "向量內積坐標式",
+    "english": "Coordinate Dot Product",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "u·v=uₓvₓ+uᵧvᵧ",
+    "summary": "把投影與分量相乘相加，得到內積的坐標表示。"
+  },
+  {
+    "slug": "vector-angle",
+    "name": "向量夾角公式",
+    "english": "Angle Between Vectors",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "cosθ=(u·v)/(|u||v|)",
+    "summary": "內積定義同時等於長度乘夾角餘弦。"
+  },
+  {
+    "slug": "parallelogram-vector",
+    "name": "平行四邊形法則",
+    "english": "Parallelogram Law",
+    "category": "解析幾何",
+    "level": "高中",
+    "formula": "|u+v|²=|u|²+|v|²+2u·v",
+    "summary": "把向量和的長度平方展開並使用內積交換律。"
+  },
+  {
+    "slug": "rectangle-area",
+    "name": "矩形面積",
+    "english": "Area of a Rectangle",
+    "category": "平面幾何",
+    "level": "國小・國中",
+    "formula": "A=長×寬",
+    "summary": "把矩形切成單位正方形，數量就是長乘寬。"
+  },
+  {
+    "slug": "square-area",
+    "name": "正方形面積",
+    "english": "Area of a Square",
+    "category": "平面幾何",
+    "level": "國小・國中",
+    "formula": "A=s²",
+    "summary": "正方形長寬相等，套矩形面積公式。"
+  },
+  {
+    "slug": "parallelogram-area",
+    "name": "平行四邊形面積",
+    "english": "Area of a Parallelogram",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "A=底×高",
+    "summary": "剪下旁邊三角形移到另一側，可拼成矩形。"
+  },
+  {
+    "slug": "trapezoid-area",
+    "name": "梯形面積",
+    "english": "Area of a Trapezoid",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "A=(上底+下底)×高/2",
+    "summary": "兩個全等梯形可拼成平行四邊形。"
+  },
+  {
+    "slug": "rhombus-area",
+    "name": "菱形面積",
+    "english": "Area of a Rhombus",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "A=對角線₁×對角線₂/2",
+    "summary": "兩條對角線把菱形切成四個直角三角形。"
+  },
+  {
+    "slug": "kite-area",
+    "name": "箏形面積",
+    "english": "Area of a Kite",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "A=對角線₁×對角線₂/2",
+    "summary": "對角線把箏形切成四個三角形，合併得一半乘積。"
+  },
+  {
+    "slug": "rectangle-perimeter",
+    "name": "矩形周長",
+    "english": "Perimeter of a Rectangle",
+    "category": "平面幾何",
+    "level": "國小・國中",
+    "formula": "P=2(長+寬)",
+    "summary": "兩條長邊與兩條寬邊相加。"
+  },
+  {
+    "slug": "circle-circumference",
+    "name": "圓周長",
+    "english": "Circumference of a Circle",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "C=2πr=πd",
+    "summary": "圓周率 π 定義為圓周長除以直徑。"
+  },
+  {
+    "slug": "arc-length",
+    "name": "弧長",
+    "english": "Arc Length",
+    "category": "平面幾何",
+    "level": "國中・高中",
+    "formula": "L=(θ/360°)2πr",
+    "summary": "弧長是整個圓周乘上圓心角比例。"
+  },
+  {
+    "slug": "annulus-area",
+    "name": "圓環面積",
+    "english": "Area of an Annulus",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "A=π(R²−r²)",
+    "summary": "大圓面積減去小圓面積。"
+  },
+  {
+    "slug": "circle-chord-distance",
+    "name": "圓心到弦距離",
+    "english": "Distance from Center to Chord",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "d=√(r²−(c/2)²)",
+    "summary": "半徑、半弦與圓心到弦距離形成直角三角形。"
+  },
+  {
+    "slug": "inscribed-angle",
+    "name": "圓周角定理",
+    "english": "Inscribed Angle Theorem",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "圓周角=同弧圓心角/2",
+    "summary": "圓周角與圓心連線分割後可由三角形內角和證明。"
+  },
+  {
+    "slug": "central-angle",
+    "name": "圓心角與弧度",
+    "english": "Central Angle and Arc",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "θ=L/r",
+    "summary": "弧度定義就是弧長除以半徑。"
+  },
+  {
+    "slug": "tangent-chord-angle",
+    "name": "切線弦夾角定理",
+    "english": "Tangent-Chord Theorem",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "切線弦角=所對弧圓周角",
+    "summary": "半徑垂直切線，再配合圓周角定理可得。"
+  },
+  {
+    "slug": "similar-side-ratio",
+    "name": "相似三角形邊比",
+    "english": "Similar Triangle Ratio",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "a/a′=b/b′=c/c′",
+    "summary": "相似三角形對應角相等，因此對應邊成比例。"
+  },
+  {
+    "slug": "similar-area-ratio",
+    "name": "相似圖形面積比",
+    "english": "Similar Area Ratio",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "A/A′=k²",
+    "summary": "面積含有兩個長度方向，比例要平方。"
+  },
+  {
+    "slug": "similar-volume-ratio",
+    "name": "相似立體體積比",
+    "english": "Similar Volume Ratio",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "V/V′=k³",
+    "summary": "體積含有三個長度方向，比例要立方。"
+  },
+  {
+    "slug": "triangle-angle-sum",
+    "name": "三角形內角和",
+    "english": "Triangle Angle Sum",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "A+B+C=180°",
+    "summary": "過一頂點作平行線，利用內錯角與平角得到。"
+  },
+  {
+    "slug": "exterior-angle",
+    "name": "三角形外角定理",
+    "english": "Exterior Angle Theorem",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "外角=兩個不相鄰內角和",
+    "summary": "外角與相鄰內角互補，再套三角形內角和。"
+  },
+  {
+    "slug": "regular-polygon-interior",
+    "name": "正多邊形單一內角",
+    "english": "Interior Angle of a Regular Polygon",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "內角=(n−2)180°/n",
+    "summary": "正多邊形內角和除以 n。"
+  },
+  {
+    "slug": "regular-polygon-exterior",
+    "name": "正多邊形外角",
+    "english": "Exterior Angle of a Regular Polygon",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "外角=360°/n",
+    "summary": "所有外角繞一圈總和為 360°。"
+  },
+  {
+    "slug": "polygon-diagonal-count",
+    "name": "多邊形對角線數",
+    "english": "Number of Diagonals",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "D=n(n−3)/2",
+    "summary": "每個頂點可連 n−3 點，再除以 2 消除重複。"
+  },
+  {
+    "slug": "triangle-median-length",
+    "name": "三角形中線長公式",
+    "english": "Median Length",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "mₐ=1/2√(2b²+2c²−a²)",
+    "summary": "將中點公式與兩次距離公式整理即可。"
+  },
+  {
+    "slug": "triangle-angle-bisector",
+    "name": "角平分線定理",
+    "english": "Angle Bisector Theorem",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "BD/DC=AB/AC",
+    "summary": "把兩個小三角形以同高比較面積，再用角平分線面積比。"
+  },
+  {
+    "slug": "triangle-centroid-ratio",
+    "name": "重心中線比例",
+    "english": "Centroid Median Ratio",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "AG:GM=2:1",
+    "summary": "三條中線交於重心，利用面積等分可證。"
+  },
+  {
+    "slug": "triangle-inradius-area",
+    "name": "內切圓半徑與面積",
+    "english": "Inradius and Area",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "A=rs",
+    "summary": "三角形切成三個高為 r 的小三角形，總面積為 r(a+b+c)/2。"
+  },
+  {
+    "slug": "triangle-circumradius-area",
+    "name": "外接圓半徑與面積",
+    "english": "Circumradius and Area",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "A=abc/4R",
+    "summary": "使用正弦定理 sin A=a/2R 代入面積公式。"
+  },
+  {
+    "slug": "prism-volume",
+    "name": "柱體體積",
+    "english": "Volume of a Prism",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "V=底面積×高",
+    "summary": "將底面平移堆疊，高度每層面積相同。"
+  },
+  {
+    "slug": "cylinder-volume",
+    "name": "圓柱體積",
+    "english": "Volume of a Cylinder",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "V=πr²h",
+    "summary": "圓柱是圓面積 πr² 沿高 h 堆疊。"
+  },
+  {
+    "slug": "cylinder-surface",
+    "name": "圓柱表面積",
+    "english": "Surface Area of a Cylinder",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "S=2πr²+2πrh",
+    "summary": "兩個底圓加上展開後的長方形側面。"
+  },
+  {
+    "slug": "cone-volume",
+    "name": "圓錐體積",
+    "english": "Volume of a Cone",
+    "category": "平面幾何",
+    "level": "國中",
+    "formula": "V=1/3πr²h",
+    "summary": "同底同高的圓錐體積是圓柱的三分之一。"
+  },
+  {
+    "slug": "sphere-volume",
+    "name": "球體積",
+    "english": "Volume of a Sphere",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "V=4/3πr³",
+    "summary": "可用圓盤積分或阿基米德的等體積比較證明。"
+  },
+  {
+    "slug": "sphere-surface",
+    "name": "球表面積",
+    "english": "Surface Area of a Sphere",
+    "category": "平面幾何",
+    "level": "高中",
+    "formula": "S=4πr²",
+    "summary": "由球面帶狀切片或體積對半徑微分得到。"
+  },
+  {
+    "slug": "trig-reciprocal",
+    "name": "三角函數倒數關係",
+    "english": "Reciprocal Trigonometric Functions",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cscθ=1/sinθ, secθ=1/cosθ, cotθ=1/tanθ",
+    "summary": "由各三角比的倒數直接定義。"
+  },
+  {
+    "slug": "trig-tan-identity",
+    "name": "正切恆等式",
+    "english": "Tangent Identity",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "tanθ=sinθ/cosθ",
+    "summary": "對邊/鄰邊除以對邊/斜邊，即得 sin/cos。"
+  },
+  {
+    "slug": "sec-identity",
+    "name": "正割恆等式",
+    "english": "Secant Identity",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "1+tan²θ=sec²θ",
+    "summary": "sin²+cos²=1 兩邊除以 cos²。"
+  },
+  {
+    "slug": "csc-identity",
+    "name": "餘割恆等式",
+    "english": "Cosecant Identity",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "1+cot²θ=csc²θ",
+    "summary": "sin²+cos²=1 兩邊除以 sin²。"
+  },
+  {
+    "slug": "cofunction-sin",
+    "name": "餘函數關係一",
+    "english": "Cofunction Sine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sin(90°−θ)=cosθ",
+    "summary": "互餘角在同一直角三角形中交換對邊與鄰邊。"
+  },
+  {
+    "slug": "cofunction-tan",
+    "name": "餘函數關係二",
+    "english": "Cofunction Tangent",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "tan(90°−θ)=cotθ",
+    "summary": "互餘角會交換正切的分子與分母。"
+  },
+  {
+    "slug": "even-cos",
+    "name": "餘弦偶函數",
+    "english": "Even Property of Cosine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cos(−θ)=cosθ",
+    "summary": "單位圓中正負旋轉的 x 坐標相同。"
+  },
+  {
+    "slug": "odd-sin",
+    "name": "正弦奇函數",
+    "english": "Odd Property of Sine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sin(−θ)=−sinθ",
+    "summary": "單位圓中正負旋轉的 y 坐標互為相反數。"
+  },
+  {
+    "slug": "tan-period",
+    "name": "正切週期",
+    "english": "Period of Tangent",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "tan(θ+180°)=tanθ",
+    "summary": "sin、cos 同時變號，商值不變。"
+  },
+  {
+    "slug": "sin-period",
+    "name": "正弦週期",
+    "english": "Period of Sine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sin(θ+360°)=sinθ",
+    "summary": "單位圓轉一整圈回到同一點。"
+  },
+  {
+    "slug": "degree-radian",
+    "name": "角度弧度換算",
+    "english": "Degrees and Radians",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "180°=π rad",
+    "summary": "半圓弧長 πr，除以半徑就是 π 弧度。"
+  },
+  {
+    "slug": "arc-radian",
+    "name": "弧度弧長公式",
+    "english": "Arc Length in Radians",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "L=rθ",
+    "summary": "弧度 θ=L/r 重新整理即可。"
+  },
+  {
+    "slug": "sector-radian",
+    "name": "弧度扇形面積",
+    "english": "Sector Area in Radians",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "A=1/2r²θ",
+    "summary": "扇形比例 θ/2π 乘上 πr²。"
+  },
+  {
+    "slug": "cos-addition",
+    "name": "餘弦加角公式",
+    "english": "Cosine Addition Formula",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cos(A+B)=cosA cosB−sinA sinB",
+    "summary": "由旋轉矩陣或單位圓坐標相乘可得。"
+  },
+  {
+    "slug": "sin-subtraction",
+    "name": "正弦減角公式",
+    "english": "Sine Subtraction Formula",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sin(A−B)=sinA cosB−cosA sinB",
+    "summary": "把 B 換成 −B，再使用正弦奇函數。"
+  },
+  {
+    "slug": "cos-subtraction",
+    "name": "餘弦減角公式",
+    "english": "Cosine Subtraction Formula",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cos(A−B)=cosA cosB+sinA sinB",
+    "summary": "把 B 換成 −B，再使用餘弦偶函數。"
+  },
+  {
+    "slug": "tan-addition",
+    "name": "正切加角公式",
+    "english": "Tangent Addition Formula",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "tan(A+B)=(tanA+tanB)/(1−tanA tanB)",
+    "summary": "用 sin 加角除以 cos 加角，再同除 cosAcosB。"
+  },
+  {
+    "slug": "tan-subtraction",
+    "name": "正切減角公式",
+    "english": "Tangent Subtraction Formula",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "tan(A−B)=(tanA−tanB)/(1+tanA tanB)",
+    "summary": "用正切加角公式將 B 換成 −B。"
+  },
+  {
+    "slug": "cos-double-angle",
+    "name": "餘弦二倍角公式一",
+    "english": "Cosine Double-Angle I",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cos2A=cos²A−sin²A",
+    "summary": "將餘弦加角公式中的 B 設成 A。"
+  },
+  {
+    "slug": "cos-double-angle-two",
+    "name": "餘弦二倍角公式二",
+    "english": "Cosine Double-Angle II",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cos2A=2cos²A−1",
+    "summary": "用 sin²A+cos²A=1 代換前式的 sin²A。"
+  },
+  {
+    "slug": "cos-double-angle-three",
+    "name": "餘弦二倍角公式三",
+    "english": "Cosine Double-Angle III",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cos2A=1−2sin²A",
+    "summary": "用 sin²A+cos²A=1 代換前式的 cos²A。"
+  },
+  {
+    "slug": "tan-double-angle",
+    "name": "正切二倍角公式",
+    "english": "Tangent Double-Angle",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "tan2A=2tanA/(1−tan²A)",
+    "summary": "將正切加角公式令兩角相同。"
+  },
+  {
+    "slug": "sin-half-angle",
+    "name": "正弦半角公式",
+    "english": "Sine Half-Angle",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sin(A/2)=±√[(1−cosA)/2]",
+    "summary": "由 cosA=1−2sin²(A/2) 移項開根號。"
+  },
+  {
+    "slug": "cos-half-angle",
+    "name": "餘弦半角公式",
+    "english": "Cosine Half-Angle",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cos(A/2)=±√[(1+cosA)/2]",
+    "summary": "由 cosA=2cos²(A/2)−1 移項開根號。"
+  },
+  {
+    "slug": "tan-half-angle",
+    "name": "正切半角公式",
+    "english": "Tangent Half-Angle",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "tan(A/2)=sinA/(1+cosA)",
+    "summary": "用正弦與餘弦二倍角公式相除整理。"
+  },
+  {
+    "slug": "product-to-sum-sin",
+    "name": "正弦積化和公式",
+    "english": "Product-to-Sum Sine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sinA sinB=[cos(A−B)−cos(A+B)]/2",
+    "summary": "將兩個餘弦減角、加角公式相減。"
+  },
+  {
+    "slug": "product-to-sum-cos",
+    "name": "餘弦積化和公式",
+    "english": "Product-to-Sum Cosine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cosA cosB=[cos(A−B)+cos(A+B)]/2",
+    "summary": "將餘弦減角、加角公式相加。"
+  },
+  {
+    "slug": "product-to-sum-mixed",
+    "name": "正餘弦積化和公式",
+    "english": "Mixed Product-to-Sum",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sinA cosB=[sin(A+B)+sin(A−B)]/2",
+    "summary": "將正弦加角、減角公式相加。"
+  },
+  {
+    "slug": "sum-to-product-sin",
+    "name": "正弦和化積公式",
+    "english": "Sum-to-Product Sine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sinA+sinB=2sin[(A+B)/2]cos[(A−B)/2]",
+    "summary": "令 x=(A+B)/2、y=(A−B)/2，再套正弦加角。"
+  },
+  {
+    "slug": "sum-to-product-cos",
+    "name": "餘弦和化積公式",
+    "english": "Sum-to-Product Cosine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cosA+cosB=2cos[(A+B)/2]cos[(A−B)/2]",
+    "summary": "用餘弦加角與減角公式相加。"
+  },
+  {
+    "slug": "sum-to-product-diff",
+    "name": "餘弦差化積公式",
+    "english": "Difference-to-Product Cosine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cosA−cosB=−2sin[(A+B)/2]sin[(A−B)/2]",
+    "summary": "用餘弦加角與減角公式相減。"
+  },
+  {
+    "slug": "triangle-area-sin",
+    "name": "三角形正弦面積公式",
+    "english": "Triangle Area with Sine",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "A=1/2bc sinA",
+    "summary": "以 b 為底，高為 c sinA。"
+  },
+  {
+    "slug": "projection-law",
+    "name": "投影定理",
+    "english": "Projection Law",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "a=b cosC+c cosB",
+    "summary": "將一邊投影到另外兩邊方向後相加。"
+  },
+  {
+    "slug": "trig-general-sine",
+    "name": "正弦方程通解",
+    "english": "General Solution of Sine Equation",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "sinθ=sinα ⇒ θ=n·360°+α 或 n·360°+180°−α",
+    "summary": "利用單位圓中 y 坐標相同的位置。"
+  },
+  {
+    "slug": "trig-general-cos",
+    "name": "餘弦方程通解",
+    "english": "General Solution of Cosine Equation",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "cosθ=cosα ⇒ θ=360°n±α",
+    "summary": "利用單位圓中 x 坐標對稱的位置。"
+  },
+  {
+    "slug": "special-angles",
+    "name": "特殊角三角值",
+    "english": "Special Angle Values",
+    "category": "三角函數",
+    "level": "國中・高中",
+    "formula": "sin30=1/2, cos60=1/2, tan45=1",
+    "summary": "由 30-60-90 與 45-45-90 特殊三角形得到。"
+  },
+  {
+    "slug": "trig-amplitude",
+    "name": "正弦函數振幅",
+    "english": "Sine Amplitude",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "y=A sin(Bx+C)+D 的振幅=|A|",
+    "summary": "正弦值範圍 −1 到 1，乘 A 後上下幅度為 |A|。"
+  },
+  {
+    "slug": "trig-period-general",
+    "name": "三角函數週期",
+    "english": "General Trig Period",
+    "category": "三角函數",
+    "level": "高中",
+    "formula": "y=sin(Bx) 的週期=2π/|B|",
+    "summary": "令 Bx 增加 2π，函數值回到原來。"
+  },
+  {
+    "slug": "permutation-repetition",
+    "name": "重複排列",
+    "english": "Permutation with Repetition",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "nʳ",
+    "summary": "每一格都可重複選 n 種，共 r 格用乘法原理。"
+  },
+  {
+    "slug": "identical-permutation",
+    "name": "含相同物件排列",
+    "english": "Permutations with Identical Objects",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "n!/(n₁!n₂!…)",
+    "summary": "先把物件視為不同排列，再除以相同物件的內部交換。"
+  },
+  {
+    "slug": "circular-permutation",
+    "name": "圓排列",
+    "english": "Circular Permutation",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "(n−1)!",
+    "summary": "固定一人消除旋轉造成的重複，再排列其餘 n−1 人。"
+  },
+  {
+    "slug": "combination-symmetry",
+    "name": "組合對稱性",
+    "english": "Symmetry of Combinations",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "C(n,r)=C(n,n−r)",
+    "summary": "選 r 個等同於排除 n−r 個。"
+  },
+  {
+    "slug": "pascal-identity",
+    "name": "帕斯卡恆等式",
+    "english": "Pascal's Identity",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "C(n,r)=C(n−1,r−1)+C(n−1,r)",
+    "summary": "依最後一個物件選或不選分成兩類。"
+  },
+  {
+    "slug": "binomial-coefficient-sum",
+    "name": "組合數總和",
+    "english": "Sum of Binomial Coefficients",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "Σ C(n,k)=2ⁿ",
+    "summary": "n 個物件每個都有選或不選兩種狀態。"
+  },
+  {
+    "slug": "stars-and-bars",
+    "name": "重複組合",
+    "english": "Stars and Bars",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "C(n+r−1,r)",
+    "summary": "用 n−1 根隔板把 r 個相同物件分到 n 盒。"
+  },
+  {
+    "slug": "inclusion-exclusion-two",
+    "name": "容斥原理二集合",
+    "english": "Inclusion-Exclusion for Two Sets",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "|A∪B|=|A|+|B|−|A∩B|",
+    "summary": "兩集合交集被加了兩次，需扣回一次。"
+  },
+  {
+    "slug": "inclusion-exclusion-three",
+    "name": "容斥原理三集合",
+    "english": "Inclusion-Exclusion for Three Sets",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "|A∪B∪C|=Σ|A|−Σ|A∩B|+|A∩B∩C|",
+    "summary": "先加單集合、扣雙交集，再補回三重交集。"
+  },
+  {
+    "slug": "pigeonhole",
+    "name": "鴿籠原理",
+    "english": "Pigeonhole Principle",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "n+1 個物件放 n 盒，至少一盒有 ≥2 個",
+    "summary": "物件比盒子多，必有碰撞。"
+  },
+  {
+    "slug": "probability-addition",
+    "name": "機率加法定理",
+    "english": "Addition Rule of Probability",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(A∪B)=P(A)+P(B)−P(A∩B)",
+    "summary": "同樣由容斥原理避免重複計數。"
+  },
+  {
+    "slug": "mutually-exclusive",
+    "name": "互斥事件機率",
+    "english": "Mutually Exclusive Events",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "A∩B=∅ ⇒ P(A∪B)=P(A)+P(B)",
+    "summary": "互斥時沒有交集，不需扣除重複部分。"
+  },
+  {
+    "slug": "complement-probability",
+    "name": "補事件機率",
+    "english": "Complement Rule",
+    "category": "排列組合與機率",
+    "level": "國中・高中",
+    "formula": "P(Aᶜ)=1−P(A)",
+    "summary": "事件與補事件剛好分割整個樣本空間。"
+  },
+  {
+    "slug": "conditional-probability",
+    "name": "條件機率",
+    "english": "Conditional Probability",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(A|B)=P(A∩B)/P(B)",
+    "summary": "在 B 已發生的縮小樣本空間裡看 A。"
+  },
+  {
+    "slug": "multiplication-probability",
+    "name": "機率乘法定理",
+    "english": "Multiplication Rule of Probability",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(A∩B)=P(A)P(B|A)",
+    "summary": "先發生 A 再在 A 條件下發生 B。"
+  },
+  {
+    "slug": "independent-events",
+    "name": "獨立事件",
+    "english": "Independent Events",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(A∩B)=P(A)P(B)",
+    "summary": "A 的發生不改變 B 的機率。"
+  },
+  {
+    "slug": "bayes-theorem",
+    "name": "貝氏定理",
+    "english": "Bayes' Theorem",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(A|B)=P(B|A)P(A)/P(B)",
+    "summary": "由條件機率的乘法交換 A、B 順序。"
+  },
+  {
+    "slug": "expected-value-discrete",
+    "name": "離散型隨機變數期望值",
+    "english": "Expected Value",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "E(X)=ΣxP(X=x)",
+    "summary": "每個可能值乘發生機率後加總。"
+  },
+  {
+    "slug": "variance-discrete",
+    "name": "離散型變異數",
+    "english": "Variance",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "Var(X)=E(X²)−[E(X)]²",
+    "summary": "由 E[(X−μ)²] 展開並利用 E(X)=μ。"
+  },
+  {
+    "slug": "standard-deviation",
+    "name": "標準差",
+    "english": "Standard Deviation",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "σ=√Var(X)",
+    "summary": "標準差是變異數的平方根，回到原量綱。"
+  },
+  {
+    "slug": "binomial-probability",
+    "name": "二項分布機率",
+    "english": "Binomial Probability",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ",
+    "summary": "先選出 k 次成功的位置，再乘每種排列的機率。"
+  },
+  {
+    "slug": "binomial-mean",
+    "name": "二項分布平均數",
+    "english": "Binomial Mean",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "E(X)=np",
+    "summary": "n 次獨立試驗，每次成功指示變數期望值為 p。"
+  },
+  {
+    "slug": "binomial-variance",
+    "name": "二項分布變異數",
+    "english": "Binomial Variance",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "Var(X)=np(1−p)",
+    "summary": "n 個獨立 Bernoulli 變數的變異數相加。"
+  },
+  {
+    "slug": "geometric-probability",
+    "name": "幾何分布機率",
+    "english": "Geometric Distribution",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(X=k)=(1−p)ᵏ⁻¹p",
+    "summary": "前 k−1 次失敗、第 k 次成功。"
+  },
+  {
+    "slug": "hypergeometric",
+    "name": "超幾何分布",
+    "english": "Hypergeometric Distribution",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(X=k)=C(K,k)C(N−K,n−k)/C(N,n)",
+    "summary": "從有限母體不放回抽樣，分別選成功與失敗。"
+  },
+  {
+    "slug": "probability-union-bound",
+    "name": "聯集上界",
+    "english": "Union Bound",
+    "category": "排列組合與機率",
+    "level": "高中",
+    "formula": "P(A∪B)≤P(A)+P(B)",
+    "summary": "由加法定理扣掉非負的交集機率。"
+  },
+  {
+    "slug": "euclidean-algorithm",
+    "name": "輾轉相除法",
+    "english": "Euclidean Algorithm",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "gcd(a,b)=gcd(b, a mod b)",
+    "summary": "用餘數逐步縮小問題，最後一個非零餘數就是最大公因數。"
+  },
+  {
+    "slug": "bezout-identity",
+    "name": "裴蜀定理",
+    "english": "Bézout's Identity",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "gcd(a,b)=ax+by",
+    "summary": "兩數的最大公因數一定可以寫成它們的整數線性組合。"
+  },
+  {
+    "slug": "gcd-lcm",
+    "name": "最大公因數與最小公倍數關係",
+    "english": "GCD–LCM Identity",
+    "category": "數論",
+    "level": "國中・資優",
+    "formula": "gcd(a,b)·lcm(a,b)=|ab|",
+    "summary": "把兩數的質因數次方取最小與最大，乘積會還原原來兩數。"
+  },
+  {
+    "slug": "linear-congruence",
+    "name": "一次同餘方程式",
+    "english": "Linear Congruence",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "ax≡b (mod m) 可解 ⇔ gcd(a,m)|b",
+    "summary": "係數 a 在模 m 下能產生的剩餘類，必須包含 b。"
+  },
+  {
+    "slug": "modular-inverse",
+    "name": "模反元素",
+    "english": "Modular Inverse",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "aa⁻¹≡1 (mod m) ⇔ gcd(a,m)=1",
+    "summary": "只有 a 與模數互質時，乘法才可在同餘系統中逆運算。"
+  },
+  {
+    "slug": "fermat-little-theorem",
+    "name": "費馬小定理",
+    "english": "Fermat's Little Theorem",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "aᵖ⁻¹≡1 (mod p), p∤a",
+    "summary": "把 1 到 p−1 各乘 a 後取模，得到同一組非零剩餘。"
+  },
+  {
+    "slug": "euler-theorem-number",
+    "name": "歐拉定理（數論）",
+    "english": "Euler's Theorem",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "aᵠ⁽ⁿ⁾≡1 (mod n), gcd(a,n)=1",
+    "summary": "費馬小定理推廣到任意模數，週期由歐拉函數決定。"
+  },
+  {
+    "slug": "chinese-remainder",
+    "name": "中國剩餘定理",
+    "english": "Chinese Remainder Theorem",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "x≡aᵢ (mod mᵢ) ⇒ 唯一 mod ∏mᵢ（mᵢ 兩兩互質）",
+    "summary": "彼此互質的模數條件可以拼成一個更大的唯一剩餘類。"
+  },
+  {
+    "slug": "euler-phi-number",
+    "name": "歐拉函數公式",
+    "english": "Euler's Totient Function",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "φ(n)=n∏(1−1/p), p|n",
+    "summary": "從 n 個正整數中扣除含各質因數的倍數，再用容斥整理。"
+  },
+  {
+    "slug": "divisor-count",
+    "name": "正因數個數公式",
+    "english": "Number of Divisors",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "n=∏pᵢᵉⁱ ⇒ τ(n)=∏(eᵢ+1)",
+    "summary": "每個質因數的次方可從 0 選到 eᵢ，選法相乘。"
+  },
+  {
+    "slug": "divisor-sum",
+    "name": "正因數和公式",
+    "english": "Sum of Divisors",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "σ(n)=∏(pᵉ⁺¹−1)/(p−1)",
+    "summary": "將每個質因數的 0 到 e 次方先形成等比和，再相乘。"
+  },
+  {
+    "slug": "wilson-theorem",
+    "name": "威爾遜定理",
+    "english": "Wilson's Theorem",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "(p−1)!≡−1 (mod p) ⇔ p 為質數",
+    "summary": "模 p 下每個非零元素與其反元素配對，只留下 1 與 −1。"
+  },
+  {
+    "slug": "legendre-formula",
+    "name": "勒讓德公式",
+    "english": "Legendre's Formula",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "vₚ(n!)=⌊n/p⌋+⌊n/p²⌋+…",
+    "summary": "數 n! 中有多少個 p 因子，分別數 p、p²、p³ 的倍數。"
+  },
+  {
+    "slug": "primitive-pythagorean-triple",
+    "name": "原始勾股數參數式",
+    "english": "Primitive Pythagorean Triples",
+    "category": "數論",
+    "level": "高中資優・奧林匹亞",
+    "formula": "a=m²−n², b=2mn, c=m²+n²",
+    "summary": "m>n、互質且一奇一偶時，產生所有原始整數直角三角形。"
+  },
+  {
+    "slug": "am-gm",
+    "name": "算術幾何平均不等式",
+    "english": "AM–GM Inequality",
+    "category": "不等式",
+    "level": "高中・資優",
+    "formula": "(a₁+…+aₙ)/n≥(a₁…aₙ)¹⁄ⁿ",
+    "summary": "正數的平均值不小於幾何平均，等號在所有數相等時成立。"
+  },
+  {
+    "slug": "cauchy-schwarz",
+    "name": "柯西－施瓦茲不等式",
+    "english": "Cauchy–Schwarz Inequality",
+    "category": "不等式",
+    "level": "高中資優・奧林匹亞",
+    "formula": "(Σaᵢ²)(Σbᵢ²)≥(Σaᵢbᵢ)²",
+    "summary": "平方和永遠非負，展開 Σ(aᵢbⱼ−aⱼbᵢ)² 即可看見差距。"
+  },
+  {
+    "slug": "cauchy-engel",
+    "name": "柯西施瓦茲的 Engel 形式",
+    "english": "Cauchy–Schwarz Engel Form",
+    "category": "不等式",
+    "level": "高中資優・奧林匹亞",
+    "formula": "Σxᵢ²/aᵢ≥(Σxᵢ)²/Σaᵢ",
+    "summary": "令 bᵢ=xᵢ/√aᵢ、cᵢ=√aᵢ 後直接套柯西不等式。"
+  },
+  {
+    "slug": "rms-am",
+    "name": "平方平均與算術平均",
+    "english": "RMS–AM Inequality",
+    "category": "不等式",
+    "level": "高中・資優",
+    "formula": "√[(a₁²+…+aₙ²)/n]≥(a₁+…+aₙ)/n",
+    "summary": "由平方和不小於平均平方，或由柯西不等式直接得到。"
+  },
+  {
+    "slug": "hm-gm",
+    "name": "調和平均與幾何平均",
+    "english": "HM–GM Inequality",
+    "category": "不等式",
+    "level": "高中資優",
+    "formula": "n/(Σ1/aᵢ)≤(a₁…aₙ)¹⁄ⁿ",
+    "summary": "對倒數套用 AM–GM，再取倒數並注意不等號方向。"
+  },
+  {
+    "slug": "rearrangement-inequality",
+    "name": "重排不等式",
+    "english": "Rearrangement Inequality",
+    "category": "不等式",
+    "level": "高中資優・奧林匹亞",
+    "formula": "Σaᵢbᵢ≥Σaᵢb_{π(i)}≥Σaᵢb_{n+1−i}",
+    "summary": "同向排序的乘積和最大，反向排序的乘積和最小。"
+  },
+  {
+    "slug": "chebyshev-sum-inequality",
+    "name": "切比雪夫總和不等式",
+    "english": "Chebyshev's Sum Inequality",
+    "category": "不等式",
+    "level": "高中資優・奧林匹亞",
+    "formula": "(1/n)Σaᵢbᵢ≥[(Σaᵢ)/n][(Σbᵢ)/n]",
+    "summary": "兩列同向排序時，配對乘積的平均不小於平均值乘積。"
+  },
+  {
+    "slug": "jensen-inequality",
+    "name": "琴生不等式",
+    "english": "Jensen's Inequality",
+    "category": "不等式",
+    "level": "高中資優・奧林匹亞",
+    "formula": "f(Σλᵢxᵢ)≤Σλᵢf(xᵢ), f convex",
+    "summary": "凸函數的圖形位於弦線下方，權重平均後保持這個方向。"
+  },
+  {
+    "slug": "bernoulli-inequality",
+    "name": "伯努利不等式",
+    "english": "Bernoulli's Inequality",
+    "category": "不等式",
+    "level": "高中資優",
+    "formula": "(1+x)ʳ≥1+rx (r≥1,x≥−1)",
+    "summary": "由二項式展開或數學歸納法，後續項在條件下非負。"
+  },
+  {
+    "slug": "schur-inequality",
+    "name": "舒爾不等式",
+    "english": "Schur's Inequality",
+    "category": "不等式",
+    "level": "高中資優・奧林匹亞",
+    "formula": "Σa(a−b)(a−c)≥0, a≥b≥c≥0",
+    "summary": "排序後拆成非負的差與平方組合，常用於三變量不等式。"
+  },
+  {
+    "slug": "triangle-inequality-advanced",
+    "name": "三角不等式",
+    "english": "Triangle Inequality",
+    "category": "不等式",
+    "level": "國中・資優",
+    "formula": "|a+b|≤|a|+|b|",
+    "summary": "兩段路徑不會比直接連線更短，等號表示同向。"
+  },
+  {
+    "slug": "stewart-theorem",
+    "name": "史都華定理",
+    "english": "Stewart's Theorem",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "b²m+c²n=a(d²+mn), m+n=a",
+    "summary": "將兩側小三角形套用餘弦定理，再消去共享角度。"
+  },
+  {
+    "slug": "apollonius-theorem",
+    "name": "阿波羅尼斯定理",
+    "english": "Apollonius's Theorem",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "b²+c²=2(mₐ²+(a/2)²)",
+    "summary": "中線把底邊分成兩半，對兩個小三角形使用畢氏型的距離展開。"
+  },
+  {
+    "slug": "ceva-theorem",
+    "name": "塞瓦定理",
+    "english": "Ceva's Theorem",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "(BD/DC)(CE/EA)(AF/FB)=1",
+    "summary": "三條共點線分割出的三組三角形面積比相乘後約去。"
+  },
+  {
+    "slug": "menelaus-theorem",
+    "name": "梅涅勞斯定理",
+    "english": "Menelaus's Theorem",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "(BD/DC)(CE/EA)(AF/FB)=−1",
+    "summary": "一條直線截三角形三邊，使用有向線段的面積比可得。"
+  },
+  {
+    "slug": "ptolemy-theorem",
+    "name": "托勒密定理",
+    "english": "Ptolemy's Theorem",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "AC·BD=AB·CD+BC·AD",
+    "summary": "圓內接四邊形可用對角線交點與相似三角形證明。"
+  },
+  {
+    "slug": "power-of-point",
+    "name": "點冪定理",
+    "english": "Power of a Point",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "PA·PB=PC·PD",
+    "summary": "同一點引兩條割線，利用相似三角形得到兩段乘積相等。"
+  },
+  {
+    "slug": "tangent-secant-theorem",
+    "name": "切割線定理",
+    "english": "Tangent–Secant Theorem",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "PT²=PA·PB",
+    "summary": "切線與割線形成的兩三角形相似，切線段是兩段割線的幾何平均。"
+  },
+  {
+    "slug": "brahmagupta-formula",
+    "name": "婆羅摩笈多公式",
+    "english": "Brahmagupta's Formula",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "K=√[(s−a)(s−b)(s−c)(s−d)]",
+    "summary": "圓內接四邊形可拆成兩三角形，再利用對角互補化簡。"
+  },
+  {
+    "slug": "euler-oir",
+    "name": "歐拉三角形外心內心關係",
+    "english": "Euler's OI Formula",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "OI²=R²−2Rr",
+    "summary": "以外心、內心與邊長關係展開距離平方後整理得到。"
+  },
+  {
+    "slug": "nine-point-circle-radius",
+    "name": "九點圓半徑",
+    "english": "Nine-Point Circle Radius",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "R₉=R/2",
+    "summary": "九點圓通過三邊中點、三個高足與頂點到垂心中點，半徑為外接圓半徑一半。"
+  },
+  {
+    "slug": "euler-oh",
+    "name": "歐拉線外心垂心距離",
+    "english": "Euler's OH Formula",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "OH²=9R²−(a²+b²+c²)",
+    "summary": "把垂心表示成三個頂點向量的和，再用外心坐標展開。"
+  },
+  {
+    "slug": "incenter-excenter",
+    "name": "內心與旁心距離公式",
+    "english": "Incenter–Excenter Relation",
+    "category": "奧林匹亞幾何",
+    "level": "高中資優・奧林匹亞",
+    "formula": "AI²=4R²+4Rrₐ",
+    "summary": "由內切圓、旁切圓半徑與外接圓半徑的關係推得。"
+  },
+  {
+    "slug": "vieta-quadratic",
+    "name": "韋達定理（二次）",
+    "english": "Vieta's Formulas for Quadratics",
+    "category": "複數與多項式",
+    "level": "高中資優",
+    "formula": "α+β=−b/a, αβ=c/a",
+    "summary": "把 a(x−α)(x−β) 展開並對照係數。"
+  },
+  {
+    "slug": "vieta-cubic",
+    "name": "韋達定理（三次）",
+    "english": "Vieta's Formulas for Cubics",
+    "category": "複數與多項式",
+    "level": "高中資優・奧林匹亞",
+    "formula": "α+β+γ=−b/a, αβ+βγ+γα=c/a, αβγ=−d/a",
+    "summary": "將三個一次因式相乘，再逐項對照係數。"
+  },
+  {
+    "slug": "polynomial-remainder",
+    "name": "多項式餘式定理",
+    "english": "Remainder Theorem",
+    "category": "複數與多項式",
+    "level": "高中・資優",
+    "formula": "P(x)=(x−a)Q(x)+P(a)",
+    "summary": "代入 x=a 後，含 (x−a) 的部分歸零，餘式就是 P(a)。"
+  },
+  {
+    "slug": "factor-theorem",
+    "name": "因式定理",
+    "english": "Factor Theorem",
+    "category": "複數與多項式",
+    "level": "高中・資優",
+    "formula": "(x−a)|P(x) ⇔ P(a)=0",
+    "summary": "餘式定理告訴我們餘式為零正好等同於可整除。"
+  },
+  {
+    "slug": "roots-of-unity",
+    "name": "n 次單位根",
+    "english": "Roots of Unity",
+    "category": "複數與多項式",
+    "level": "高中資優・奧林匹亞",
+    "formula": "zᵏ=e²πⁱᵏ⁄ⁿ, k=0,1,…,n−1",
+    "summary": "在複平面上，n 個根均勻分布在單位圓上。"
+  },
+  {
+    "slug": "de-moivre-theorem",
+    "name": "棣美弗定理",
+    "english": "De Moivre's Theorem",
+    "category": "複數與多項式",
+    "level": "高中資優",
+    "formula": "(cosθ+i sinθ)ⁿ=cos(nθ)+i sin(nθ)",
+    "summary": "用複數乘法的角度相加，對 n 做數學歸納即可。"
+  },
+  {
+    "slug": "euler-complex-formula",
+    "name": "歐拉公式",
+    "english": "Euler's Formula",
+    "category": "複數與多項式",
+    "level": "高中資優",
+    "formula": "eⁱθ=cosθ+i sinθ",
+    "summary": "比較兩邊的冪級數展開，偶次項形成 cos，奇次項形成 i sin。"
+  },
+  {
+    "slug": "catalan-number",
+    "name": "卡塔蘭數",
+    "english": "Catalan Numbers",
+    "category": "進階組合",
+    "level": "高中資優・奧林匹亞",
+    "formula": "Cₙ=1/(n+1)·C(2n,n)",
+    "summary": "計數括號配對、二元樹或不穿越路徑，從全部選法扣掉違規選法。"
+  },
+  {
+    "slug": "derangement-number",
+    "name": "錯排數",
+    "english": "Derangement Number",
+    "category": "進階組合",
+    "level": "高中資優・奧林匹亞",
+    "formula": "!n=n!Σₖ₌₀ⁿ(−1)ᵏ/k!",
+    "summary": "用容斥原理排除至少一個物件留在原位的排列。"
+  },
+  {
+    "slug": "burnside-lemma",
+    "name": "伯恩賽德引理",
+    "english": "Burnside's Lemma",
+    "category": "進階組合",
+    "level": "高中資優・奧林匹亞",
+    "formula": "軌道數=(1/|G|)Σg∈G Fix(g)",
+    "summary": "把每個對稱操作固定的配置數平均，即得到不同等價類數量。"
+  },
+  {
+    "slug": "handshaking-lemma",
+    "name": "握手定理",
+    "english": "Handshaking Lemma",
+    "category": "進階組合",
+    "level": "高中資優・奧林匹亞",
+    "formula": "Σdeg(v)=2|E|",
+    "summary": "每條邊在兩端各貢獻一次度數。"
+  },
+  {
+    "slug": "euler-planar-graph",
+    "name": "平面圖歐拉公式",
+    "english": "Euler's Formula for Planar Graphs",
+    "category": "進階組合",
+    "level": "高中資優・奧林匹亞",
+    "formula": "V−E+F=2",
+    "summary": "把平面圖逐步刪去邊或面，基本圖形都維持同一個不變量。"
+  },
+  {
+    "slug": "cayley-tree",
+    "name": "凱萊公式",
+    "english": "Cayley's Formula",
+    "category": "進階組合",
+    "level": "高中資優・奧林匹亞",
+    "formula": "標號樹數量=nⁿ⁻²",
+    "summary": "用 Prüfer 編碼將每棵 n 點標號樹與長度 n−2 的序列一一對應。"
+  },
+  {
+    "slug": "vandermermonde-identity",
+    "name": "范德蒙德恆等式",
+    "english": "Vandermonde's Identity",
+    "category": "進階組合",
+    "level": "高中資優・奧林匹亞",
+    "formula": "ΣₖC(r,k)C(s,n−k)=C(r+s,n)",
+    "summary": "從兩群人合計 r+s 人中選 n 人，按第一群選幾人分類。"
+  },
+  {
+    "slug": "hockey-stick-identity",
+    "name": "曲棍球桿恆等式",
+    "english": "Hockey-Stick Identity",
+    "category": "進階組合",
+    "level": "高中資優",
+    "formula": "Σₖ₌ᵣⁿC(k,r)=C(n+1,r+1)",
+    "summary": "帕斯卡三角形斜線上的組合數相加，會合併成下一列的一項。"
+  },
+  {
+    "slug": "alternating-binomial",
+    "name": "交錯二項式和",
+    "english": "Alternating Binomial Sum",
+    "category": "進階組合",
+    "level": "高中資優",
+    "formula": "Σₖ₌₀ⁿ(−1)ᵏC(n,k)=0 (n≥1)",
+    "summary": "由 (1−1)ⁿ 的二項式展開直接得到。"
+  },
+  {
+    "slug": "fibonacci-binet",
+    "name": "斐波那契數列通項",
+    "english": "Binet's Formula",
+    "category": "進階組合",
+    "level": "高中資優",
+    "formula": "Fₙ=(φⁿ−ψⁿ)/√5, φ=(1+√5)/2",
+    "summary": "解遞迴式 Fₙ₊₂=Fₙ₊₁+Fₙ 的特徵方程得到。"
+  },
+  {
+    "slug": "limit-definition",
+    "name": "函數極限定義",
+    "english": "Definition of a Limit",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "limₓ→a f(x)=L",
+    "summary": "當 x 越靠近 a，f(x) 越靠近 L；極限描述的是靠近的趨勢。"
+  },
+  {
+    "slug": "limit-laws",
+    "name": "極限運算法則",
+    "english": "Limit Laws",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "lim(f±g)=lim f±lim g; lim(fg)=lim f·lim g",
+    "summary": "若各極限存在，和、差、積、商可以分別運算。"
+  },
+  {
+    "slug": "squeeze-theorem",
+    "name": "夾擠定理",
+    "english": "Squeeze Theorem",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "g(x)≤f(x)≤h(x), lim g=lim h=L ⇒ lim f=L",
+    "summary": "若函數被兩個極限相同的函數夾住，也必須趨近同一個值。"
+  },
+  {
+    "slug": "standard-trig-limits",
+    "name": "基本三角極限",
+    "english": "Standard Trigonometric Limits",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "limₓ→0 sinx/x=1; limₓ→0(1−cosx)/x²=1/2",
+    "summary": "這兩個極限是推導三角函數導數的核心入口。"
+  },
+  {
+    "slug": "continuity-definition",
+    "name": "連續函數定義",
+    "english": "Continuity",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "f continuous at a ⇔ limₓ→a f(x)=f(a)",
+    "summary": "函數值、左極限與右極限在該點接得起來，就是連續。"
+  },
+  {
+    "slug": "derivative-definition",
+    "name": "導數定義",
+    "english": "Definition of the Derivative",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "f′(a)=limₕ→0[f(a+h)−f(a)]/h",
+    "summary": "割線斜率在兩點無限靠近時的極限，就是切線斜率。"
+  },
+  {
+    "slug": "derivative-power",
+    "name": "冪次微分法則",
+    "english": "Power Rule",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx(xⁿ)=nxⁿ⁻¹",
+    "summary": "由二項式定理展開差商，除去不含 h 的項後取極限。"
+  },
+  {
+    "slug": "derivative-constant",
+    "name": "常數微分法則",
+    "english": "Derivative of a Constant",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx(c)=0",
+    "summary": "常數函數圖形是水平線，瞬時變化率為零。"
+  },
+  {
+    "slug": "derivative-sum",
+    "name": "和差微分法則",
+    "english": "Sum and Difference Rule",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "(f±g)′=f′±g′",
+    "summary": "差商可拆成兩個差商，極限也可分開。"
+  },
+  {
+    "slug": "derivative-product",
+    "name": "乘積微分法則",
+    "english": "Product Rule",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "(fg)′=f′g+fg′",
+    "summary": "在 f(x+h)g(x+h) 中加減 f(x)g(x+h)，再取極限。"
+  },
+  {
+    "slug": "derivative-quotient",
+    "name": "商的微分法則",
+    "english": "Quotient Rule",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "(f/g)′=(f′g−fg′)/g²",
+    "summary": "將商寫成乘積 f·g⁻¹，再用乘積與冪次法則。"
+  },
+  {
+    "slug": "chain-rule",
+    "name": "鏈鎖律",
+    "english": "Chain Rule",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx f(g(x))=f′(g(x))g′(x)",
+    "summary": "外層變化率乘上內層變化率，反映複合函數的連鎖變化。"
+  },
+  {
+    "slug": "derivative-exponential",
+    "name": "指數函數微分",
+    "english": "Derivative of Exponential Function",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx(eˣ)=eˣ; d/dx(aˣ)=aˣlna",
+    "summary": "eˣ 的瞬時變化率正好等於函數本身，再用換底處理 aˣ。"
+  },
+  {
+    "slug": "derivative-logarithm",
+    "name": "對數函數微分",
+    "english": "Derivative of Logarithm",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx(lnx)=1/x; d/dx(logₐx)=1/(x ln a)",
+    "summary": "令 y=ln x，利用 eʸ=x 做隱函數微分。"
+  },
+  {
+    "slug": "derivative-sine",
+    "name": "正弦函數微分",
+    "english": "Derivative of Sine",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx(sinx)=cosx",
+    "summary": "用正弦加角公式拆開差商，再套基本三角極限。"
+  },
+  {
+    "slug": "derivative-cosine",
+    "name": "餘弦函數微分",
+    "english": "Derivative of Cosine",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx(cosx)=−sinx",
+    "summary": "用餘弦減角公式與基本三角極限，負號來自方向變化。"
+  },
+  {
+    "slug": "derivative-tangent",
+    "name": "正切函數微分",
+    "english": "Derivative of Tangent",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx(tanx)=sec²x",
+    "summary": "tanx=sinx/cosx，套商法則並用 sin²+cos²=1。"
+  },
+  {
+    "slug": "inverse-function-derivative",
+    "name": "反函數微分法則",
+    "english": "Derivative of an Inverse Function",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "(f⁻¹)′(x)=1/f′(f⁻¹(x))",
+    "summary": "由 f(f⁻¹(x))=x 兩邊微分，再用鏈鎖律。"
+  },
+  {
+    "slug": "implicit-differentiation",
+    "name": "隱函數微分",
+    "english": "Implicit Differentiation",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "若 F(x,y)=0，對 x 兩邊微分並解 y′",
+    "summary": "把 y 視為 x 的函數，含 y 的項都需使用鏈鎖律。"
+  },
+  {
+    "slug": "tangent-line",
+    "name": "切線方程式",
+    "english": "Tangent Line Equation",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "y−f(a)=f′(a)(x−a)",
+    "summary": "切線通過 (a,f(a))，斜率就是 f′(a)。"
+  },
+  {
+    "slug": "normal-line",
+    "name": "法線方程式",
+    "english": "Normal Line Equation",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "y−f(a)=−[1/f′(a)](x−a)",
+    "summary": "法線與切線垂直，兩斜率乘積為 −1。"
+  },
+  {
+    "slug": "critical-number",
+    "name": "臨界數",
+    "english": "Critical Number",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "f′(c)=0 或 f′(c) 不存在",
+    "summary": "局部極值只能出現在導數為零或導數不存在的位置。"
+  },
+  {
+    "slug": "first-derivative-test",
+    "name": "一階導數判別法",
+    "english": "First Derivative Test",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "f′: +→− 為極大；−→+ 為極小",
+    "summary": "導數符號代表函數升降，符號改變即可判斷局部極值。"
+  },
+  {
+    "slug": "second-derivative-test",
+    "name": "二階導數判別法",
+    "english": "Second Derivative Test",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "f′(c)=0, f″(c)>0 為極小；f″(c)<0 為極大",
+    "summary": "二階導數描述斜率的變化方向，也就是圖形凹凸。"
+  },
+  {
+    "slug": "mean-value-theorem",
+    "name": "拉格朗日中值定理",
+    "english": "Mean Value Theorem",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "f′(c)=[f(b)−f(a)]/(b−a)",
+    "summary": "連續且可微時，某一點的瞬時斜率會等於整段平均斜率。"
+  },
+  {
+    "slug": "integral-power",
+    "name": "冪次積分法則",
+    "english": "Power Rule for Integration",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "∫xⁿdx=xⁿ⁺¹/(n+1)+C, n≠−1",
+    "summary": "反過來想：找一個微分後會得到 xⁿ 的函數。"
+  },
+  {
+    "slug": "integral-log",
+    "name": "倒數積分法則",
+    "english": "Integral of 1/x",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "∫1/x dx=ln|x|+C",
+    "summary": "ln|x| 微分後是 1/x，絕對值涵蓋 x<0 的情況。"
+  },
+  {
+    "slug": "fundamental-theorem-calculus",
+    "name": "微積分基本定理",
+    "english": "Fundamental Theorem of Calculus",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "d/dx∫ₐˣf(t)dt=f(x)",
+    "summary": "積分累積量的瞬時變化率，就是當下的函數值。"
+  },
+  {
+    "slug": "definite-integral-antiderivative",
+    "name": "定積分與原函數",
+    "english": "Evaluation of a Definite Integral",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "∫ₐᵇf(x)dx=F(b)−F(a), F′=f",
+    "summary": "把面積累積問題轉成找原函數，再代上下限相減。"
+  },
+  {
+    "slug": "u-substitution",
+    "name": "換元積分法",
+    "english": "u-Substitution",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "∫f(g(x))g′(x)dx=∫f(u)du",
+    "summary": "把複合函數的內層設成 u，將鏈鎖律反向使用。"
+  },
+  {
+    "slug": "integration-by-parts",
+    "name": "分部積分法",
+    "english": "Integration by Parts",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "∫u dv=uv−∫v du",
+    "summary": "由乘積微分法則積分而來，適合處理兩個函數相乘。"
+  },
+  {
+    "slug": "area-under-curve",
+    "name": "曲線下方面積",
+    "english": "Area Under a Curve",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "A=∫ₐᵇf(x)dx (f≥0)",
+    "summary": "把區間切成很多窄長方形，寬度趨近零後取總和極限。"
+  },
+  {
+    "slug": "area-between-curves",
+    "name": "兩曲線間面積",
+    "english": "Area Between Curves",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "A=∫ₐᵇ[上方函數−下方函數]dx",
+    "summary": "每個垂直小片的高度是上下函數差，再沿 x 累加。"
+  },
+  {
+    "slug": "average-value-function",
+    "name": "函數平均值",
+    "english": "Average Value of a Function",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "f_avg=1/(b−a)∫ₐᵇf(x)dx",
+    "summary": "總累積量除以區間長度，就是連續資料的平均。"
+  },
+  {
+    "slug": "disk-method",
+    "name": "圓盤法體積",
+    "english": "Disk Method",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "V=π∫ₐᵇ[R(x)]²dx",
+    "summary": "把立體切成薄圓盤，半徑平方乘 π 後累積。"
+  },
+  {
+    "slug": "washer-method",
+    "name": "墊圈法體積",
+    "english": "Washer Method",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "V=π∫ₐᵇ[R(x)²−r(x)²]dx",
+    "summary": "每片是外圓盤扣掉內圓盤的面積。"
+  },
+  {
+    "slug": "shell-method",
+    "name": "圓柱殼法體積",
+    "english": "Cylindrical Shell Method",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "V=2π∫ₐᵇ(radius)(height)dx",
+    "summary": "薄長方形繞軸旋轉形成圓柱殼，再累積所有殼。"
+  },
+  {
+    "slug": "separable-differential-equation",
+    "name": "可分離變數微分方程",
+    "english": "Separable Differential Equation",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "dy/dx=g(x)h(y) ⇒ ∫dy/h(y)=∫g(x)dx",
+    "summary": "把含 y 的項移到 dy 側、含 x 的項移到 dx 側再積分。"
+  },
+  {
+    "slug": "exponential-differential-equation",
+    "name": "指數成長微分方程",
+    "english": "Exponential Differential Equation",
+    "category": "微積分",
+    "level": "高中・微積分",
+    "formula": "dy/dt=ky ⇒ y=Ceᵏᵗ",
+    "summary": "函數與自身成正比的變化率，解就是指數函數。"
+  },
+  {
+    "slug": "arithmetic-mean-statistics",
+    "name": "算術平均數",
+    "english": "Arithmetic Mean",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "x̄=(x₁+x₂+…+xₙ)/n",
+    "summary": "把所有資料加總後除以資料筆數，描述資料的集中位置。"
+  },
+  {
+    "slug": "weighted-mean",
+    "name": "加權平均數",
+    "english": "Weighted Mean",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "x̄w=Σwᵢxᵢ/Σwᵢ",
+    "summary": "不同資料的重要程度不同時，用權重反映其貢獻。"
+  },
+  {
+    "slug": "median-position",
+    "name": "中位數位置",
+    "english": "Median",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "n為奇數：x₍ₙ₊₁₎⁄₂；n為偶數：(xₙ⁄₂+xₙ⁄₂₊₁)/2",
+    "summary": "先排序資料，再找出正中央的位置。"
+  },
+  {
+    "slug": "quartile-position",
+    "name": "四分位數位置",
+    "english": "Quartiles",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "Q₁位於25%，Q₂位於50%，Q₃位於75%",
+    "summary": "把排序後的資料分成四段，觀察分布位置與離散程度。"
+  },
+  {
+    "slug": "variance-population",
+    "name": "母體變異數",
+    "english": "Population Variance",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "σ²=Σ(xᵢ−μ)²/n",
+    "summary": "每筆資料與平均數差距的平方平均。"
+  },
+  {
+    "slug": "sample-variance",
+    "name": "樣本變異數",
+    "english": "Sample Variance",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "s²=Σ(xᵢ−x̄)²/(n−1)",
+    "summary": "用樣本估計母體時，分母使用 n−1 以修正偏差。"
+  },
+  {
+    "slug": "standard-deviation-data",
+    "name": "資料標準差",
+    "english": "Standard Deviation of Data",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "σ=√[Σ(xᵢ−μ)²/n]",
+    "summary": "變異數開根號，回到與原資料相同的單位。"
+  },
+  {
+    "slug": "z-score",
+    "name": "標準化分數",
+    "english": "Z-Score",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "z=(x−μ)/σ",
+    "summary": "把不同平均數與標準差的資料轉成可比較的尺度。"
+  },
+  {
+    "slug": "covariance",
+    "name": "共變異數",
+    "english": "Covariance",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "Cov(X,Y)=Σ(xᵢ−x̄)(yᵢ−ȳ)/n",
+    "summary": "觀察兩個變數是否同向或反向變動。"
+  },
+  {
+    "slug": "correlation-coefficient",
+    "name": "相關係數",
+    "english": "Correlation Coefficient",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "r=Cov(X,Y)/(σₓσᵧ)",
+    "summary": "把共變異數標準化，r 介於 −1 與 1 之間。"
+  },
+  {
+    "slug": "least-squares-slope",
+    "name": "最小平方法斜率",
+    "english": "Least-Squares Slope",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "b=Σ(xᵢ−x̄)(yᵢ−ȳ)/Σ(xᵢ−x̄)²",
+    "summary": "找出使殘差平方和最小的直線斜率。"
+  },
+  {
+    "slug": "least-squares-intercept",
+    "name": "最適直線截距",
+    "english": "Least-Squares Intercept",
+    "category": "統計與資料分析",
+    "level": "高中共同基礎",
+    "formula": "a=ȳ−bx̄",
+    "summary": "最適直線 y=a+bx 一定通過資料的平均點 (x̄,ȳ)。"
+  },
+  {
+    "slug": "expected-value-table",
+    "name": "離散資料期望值",
+    "english": "Expected Value from a Table",
+    "category": "統計與資料分析",
+    "level": "高中甲乙",
+    "formula": "E(X)=Σxᵢpᵢ",
+    "summary": "每個可能值乘上它的機率，再把所有結果加總。"
+  },
+  {
+    "slug": "matrix-addition",
+    "name": "矩陣加法",
+    "english": "Matrix Addition",
+    "category": "矩陣與線性代數",
+    "level": "高中數學A／B",
+    "formula": "(A+B)ᵢⱼ=aᵢⱼ+bᵢⱼ",
+    "summary": "只有相同大小的矩陣能逐項相加。"
+  },
+  {
+    "slug": "matrix-product",
+    "name": "矩陣乘法",
+    "english": "Matrix Multiplication",
+    "category": "矩陣與線性代數",
+    "level": "高中數學A／B",
+    "formula": "(AB)ᵢⱼ=Σₖaᵢₖbₖⱼ",
+    "summary": "第 i 列與第 j 欄做內積，得到乘積矩陣的一個元素。"
+  },
+  {
+    "slug": "determinant-two",
+    "name": "二階行列式",
+    "english": "2×2 Determinant",
+    "category": "矩陣與線性代數",
+    "level": "高中數學A",
+    "formula": "|a b; c d|=ad−bc",
+    "summary": "主對角線乘積減去副對角線乘積。"
+  },
+  {
+    "slug": "determinant-three",
+    "name": "三階行列式",
+    "english": "3×3 Determinant",
+    "category": "矩陣與線性代數",
+    "level": "高中數學A",
+    "formula": "det(A)=Σsgn(π)a₁π(1)a₂π(2)a₃π(3)",
+    "summary": "依排列的正負號展開，或用餘子式逐層降階。"
+  },
+  {
+    "slug": "matrix-inverse-two",
+    "name": "二階矩陣反方陣",
+    "english": "2×2 Matrix Inverse",
+    "category": "矩陣與線性代數",
+    "level": "高中數學A／B",
+    "formula": "A⁻¹=1/(ad−bc)[d −b; −c a]",
+    "summary": "交換主對角線、改變副對角線符號，再除以行列式。"
+  },
+  {
+    "slug": "cramer-two",
+    "name": "克拉瑪公式二元版",
+    "english": "Cramer's Rule for Two Variables",
+    "category": "矩陣與線性代數",
+    "level": "高中數學A",
+    "formula": "x=Dₓ/D, y=Dᵧ/D",
+    "summary": "用係數行列式與替換後行列式的比例解聯立方程組。"
+  },
+  {
+    "slug": "matrix-linear-transform",
+    "name": "矩陣線性變換",
+    "english": "Matrix Linear Transformation",
+    "category": "矩陣與線性代數",
+    "level": "高中數學A",
+    "formula": "T(v)=Av",
+    "summary": "矩陣把向量的座標線性地映射到另一個位置。"
+  },
+  {
+    "slug": "transition-matrix",
+    "name": "轉移矩陣模型",
+    "english": "Transition Matrix",
+    "category": "矩陣與線性代數",
+    "level": "高中數學B",
+    "formula": "vₙ₊₁=Avₙ",
+    "summary": "每一步的狀態由矩陣乘上前一步狀態得到。"
+  },
+  {
+    "slug": "vector-component",
+    "name": "向量分量表示",
+    "english": "Vector Components",
+    "category": "向量與空間",
+    "level": "高中數學A／B",
+    "formula": "v=⟨v₁,v₂,v₃⟩",
+    "summary": "用各座標方向的分量描述平面或空間中的向量。"
+  },
+  {
+    "slug": "vector-dot-space",
+    "name": "空間向量內積",
+    "english": "Dot Product in Space",
+    "category": "向量與空間",
+    "level": "高中數學A",
+    "formula": "u·v=u₁v₁+u₂v₂+u₃v₃=|u||v|cosθ",
+    "summary": "座標乘積和與長度夾角兩種表示相等。"
+  },
+  {
+    "slug": "vector-cross-product",
+    "name": "向量外積",
+    "english": "Cross Product",
+    "category": "向量與空間",
+    "level": "高中數學A",
+    "formula": "u×v=⟨u₂v₃−u₃v₂,u₃v₁−u₁v₃,u₁v₂−u₂v₁⟩",
+    "summary": "外積垂直於兩向量，長度等於它們張成的平行四邊形面積。"
+  },
+  {
+    "slug": "cross-product-area",
+    "name": "外積求面積",
+    "english": "Area from Cross Product",
+    "category": "向量與空間",
+    "level": "高中數學A",
+    "formula": "A△ABC=1/2|AB×AC|",
+    "summary": "兩邊向量的外積長度是平行四邊形面積，再除以二。"
+  },
+  {
+    "slug": "scalar-triple-product",
+    "name": "純量三重積",
+    "english": "Scalar Triple Product",
+    "category": "向量與空間",
+    "level": "高中數學A",
+    "formula": "u·(v×w)=det[u v w]",
+    "summary": "純量三重積的絕對值等於三個向量張成的平行六面體體積。"
+  },
+  {
+    "slug": "line-parametric-space",
+    "name": "空間直線參數式",
+    "english": "Parametric Line in Space",
+    "category": "向量與空間",
+    "level": "高中數學A",
+    "formula": "(x,y,z)=P+t(a,b,c)",
+    "summary": "由一個通過點與方向向量描述空間直線。"
+  },
+  {
+    "slug": "plane-normal-equation",
+    "name": "平面方程式",
+    "english": "Plane Equation",
+    "category": "向量與空間",
+    "level": "高中數學A",
+    "formula": "a(x−x₀)+b(y−y₀)+c(z−z₀)=0",
+    "summary": "平面上的位移向量與法向量內積為零。"
+  },
+  {
+    "slug": "point-plane-distance",
+    "name": "點到平面距離",
+    "english": "Point-to-Plane Distance",
+    "category": "向量與空間",
+    "level": "高中數學A",
+    "formula": "d=|ax₀+by₀+cz₀−d|/√(a²+b²+c²)",
+    "summary": "用點代入平面式的代數值，除以法向量長度。"
+  },
+  {
+    "slug": "line-plane-angle",
+    "name": "直線與平面夾角",
+    "english": "Angle Between Line and Plane",
+    "category": "向量與空間",
+    "level": "高中數學A",
+    "formula": "sinθ=|n·v|/(|n||v|)",
+    "summary": "直線與平面的角度等於方向向量與法向量夾角的餘角。"
+  },
+  {
+    "slug": "set-union-cardinality",
+    "name": "集合聯集個數",
+    "english": "Cardinality of a Union",
+    "category": "集合與邏輯",
+    "level": "高中共同基礎",
+    "formula": "|A∪B|=|A|+|B|−|A∩B|",
+    "summary": "把兩集合相加時，交集被重複計算一次，需扣回。"
+  },
+  {
+    "slug": "de-morgan-set",
+    "name": "集合的德摩根律",
+    "english": "De Morgan's Laws for Sets",
+    "category": "集合與邏輯",
+    "level": "高中共同基礎",
+    "formula": "(A∪B)ᶜ=Aᶜ∩Bᶜ；(A∩B)ᶜ=Aᶜ∪Bᶜ",
+    "summary": "不屬於聯集等同於同時不屬於兩集合；不屬於交集等同於至少不屬於一個。"
+  },
+  {
+    "slug": "set-difference",
+    "name": "集合差集公式",
+    "english": "Set Difference",
+    "category": "集合與邏輯",
+    "level": "高中共同基礎",
+    "formula": "A−B=A∩Bᶜ",
+    "summary": "在 A 中排除 B，就是留在 A 且不在 B 的元素。"
+  },
+  {
+    "slug": "logical-implication",
+    "name": "命題蘊涵",
+    "english": "Logical Implication",
+    "category": "集合與邏輯",
+    "level": "高中共同基礎",
+    "formula": "p⇒q 等價於 ¬p∨q",
+    "summary": "只有 p 真而 q 假時，蘊涵命題才是假。"
+  },
+  {
+    "slug": "contrapositive",
+    "name": "逆否命題",
+    "english": "Contrapositive",
+    "category": "集合與邏輯",
+    "level": "高中共同基礎",
+    "formula": "p⇒q ⇔ ¬q⇒¬p",
+    "summary": "命題與逆否命題的真值完全相同。"
+  },
+  {
+    "slug": "necessary-sufficient",
+    "name": "充分必要條件",
+    "english": "Necessary and Sufficient Conditions",
+    "category": "集合與邏輯",
+    "level": "高中共同基礎",
+    "formula": "p⇔q ⇔ (p⇒q)∧(q⇒p)",
+    "summary": "要成為充要條件，正向與反向都必須成立。"
+  },
+  {
+    "slug": "quantifier-negation",
+    "name": "量詞否定",
+    "english": "Negation of Quantifiers",
+    "category": "集合與邏輯",
+    "level": "高中共同基礎",
+    "formula": "¬(∀x P)=∃x¬P；¬(∃x P)=∀x¬P",
+    "summary": "全稱與存在互換，並把敘述否定。"
+  },
+  {
+    "slug": "function-composition",
+    "name": "函數合成",
+    "english": "Composition of Functions",
+    "category": "函數與模型",
+    "level": "高中數學A／B",
+    "formula": "(f∘g)(x)=f(g(x))",
+    "summary": "先作用 g，再把 g(x) 的結果代入 f。"
+  },
+  {
+    "slug": "function-inverse",
+    "name": "反函數關係",
+    "english": "Inverse Function",
+    "category": "函數與模型",
+    "level": "高中數學A／B",
+    "formula": "f⁻¹(f(x))=x",
+    "summary": "反函數把輸出送回原本的輸入，需注意一對一條件。"
+  },
+  {
+    "slug": "even-function",
+    "name": "偶函數對稱",
+    "english": "Even Function",
+    "category": "函數與模型",
+    "level": "高中共同基礎",
+    "formula": "f(−x)=f(x)",
+    "summary": "圖形關於 y 軸對稱。"
+  },
+  {
+    "slug": "odd-function",
+    "name": "奇函數對稱",
+    "english": "Odd Function",
+    "category": "函數與模型",
+    "level": "高中共同基礎",
+    "formula": "f(−x)=−f(x)",
+    "summary": "圖形關於原點對稱。"
+  },
+  {
+    "slug": "function-translation",
+    "name": "函數平移",
+    "english": "Function Translation",
+    "category": "函數與模型",
+    "level": "高中共同基礎",
+    "formula": "y=f(x−h)+k",
+    "summary": "圖形向右 h、向上 k 平移，頂點或特徵點同步移動。"
+  },
+  {
+    "slug": "average-growth-rate",
+    "name": "平均成長率",
+    "english": "Average Growth Rate",
+    "category": "函數與模型",
+    "level": "高中數學B",
+    "formula": "(f(b)−f(a))/(b−a)",
+    "summary": "用輸出變化量除以輸入變化量，描述一段區間的平均變化。"
+  },
+  {
+    "slug": "continuous-compound",
+    "name": "連續複利模型",
+    "english": "Continuous Compounding",
+    "category": "函數與模型",
+    "level": "高中數學B",
+    "formula": "A=Peʳᵗ",
+    "summary": "複利次數趨近無限時，有限期數模型趨近 e 的指數模型。"
+  },
+  {
+    "slug": "periodic-model",
+    "name": "週期模型",
+    "english": "Periodic Model",
+    "category": "函數與模型",
+    "level": "高中數學B",
+    "formula": "y=A sin(Bx+C)+D",
+    "summary": "A 控制振幅，2π/|B| 控制週期，C 控制水平位移，D 控制中線。"
+  },
+  {
+    "slug": "linear-approximation",
+    "name": "線性近似",
+    "english": "Linear Approximation",
+    "category": "函數與模型",
+    "level": "高中數學甲",
+    "formula": "f(x)≈f(a)+f′(a)(x−a)",
+    "summary": "在 a 附近用切線取代曲線，快速估計函數值。"
+  },
+  {
+    "slug": "linear-program-feasible",
+    "name": "線性規劃可行域",
+    "english": "Feasible Region",
+    "category": "線性規劃",
+    "level": "高中數學乙",
+    "formula": "R={(x,y): all linear constraints}",
+    "summary": "所有同時滿足線性限制式的點形成可行域。"
+  },
+  {
+    "slug": "linear-program-objective",
+    "name": "線性規劃目標函數",
+    "english": "Objective Function",
+    "category": "線性規劃",
+    "level": "高中數學乙",
+    "formula": "z=ax+by",
+    "summary": "用一次式表示要最大化或最小化的量。"
+  },
+  {
+    "slug": "linear-program-vertex",
+    "name": "線性規劃頂點原理",
+    "english": "Vertex Principle of Linear Programming",
+    "category": "線性規劃",
+    "level": "高中數學乙",
+    "formula": "線性目標函數的極值出現在可行域頂點",
+    "summary": "平行移動目標函數直線，最後接觸可行域的頂點就是候選最值。"
+  },
+  {
+    "slug": "linear-program-boundary",
+    "name": "線性規劃邊界交點",
+    "english": "Boundary Intersections",
+    "category": "線性規劃",
+    "level": "高中數學乙",
+    "formula": "兩條邊界聯立求交點",
+    "summary": "可行域頂點來自限制式邊界的交會，需再檢查是否符合所有限制。"
+  },
+  {
+    "slug": "absolute-error",
+    "name": "絕對誤差",
+    "english": "Absolute Error",
+    "category": "數值與誤差",
+    "level": "高中共同基礎",
+    "formula": "絕對誤差=|近似值−真值|",
+    "summary": "描述近似值離真值的實際距離。"
+  },
+  {
+    "slug": "relative-error",
+    "name": "相對誤差",
+    "english": "Relative Error",
+    "category": "數值與誤差",
+    "level": "高中共同基礎",
+    "formula": "相對誤差=|近似值−真值|/|真值|",
+    "summary": "把誤差除以真值，適合比較不同尺度的誤差。"
+  },
+  {
+    "slug": "percentage-error",
+    "name": "百分比誤差",
+    "english": "Percentage Error",
+    "category": "數值與誤差",
+    "level": "高中共同基礎",
+    "formula": "百分比誤差=相對誤差×100%",
+    "summary": "把相對誤差改用百分比表達。"
+  },
+  {
+    "slug": "error-propagation-sum",
+    "name": "和的誤差上界",
+    "english": "Error Bound for a Sum",
+    "category": "數值與誤差",
+    "level": "高中共同基礎",
+    "formula": "|Δ(x±y)|≤|Δx|+|Δy|",
+    "summary": "最保守估計時，總誤差不超過各項誤差絕對值的和。"
+  },
+  {
+    "slug": "significant-figures",
+    "name": "有效位數",
+    "english": "Significant Figures",
+    "category": "數值與誤差",
+    "level": "高中共同基礎",
+    "formula": "有效位數保留非零數字與必要的零",
+    "summary": "有效位數反映測量或計算結果的精確程度。"
+  }
+]
